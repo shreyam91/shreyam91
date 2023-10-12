@@ -1,13 +1,12 @@
 <h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/116207...">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shreyam91&label=Profile%20views&color=0e75b6&style=flat" alt="shreyam91" /> </p>
 
 - 🔭 I’m currently working on [Remote patient management system](https://github.com/shreyam91/Remote-patient-management-system)
 
-- 🌱 I’m currently learning **React Native ,Node JS, other framework**
+- 🌱 I’m currently learning **ReactNative, Node JS, other frameworks**
 
 - 👨‍💻 All of my projects are available at [https://github.com/shreyam91](https://github.com/shreyam91)
 
