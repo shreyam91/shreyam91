@@ -12,7 +12,7 @@
 
 - 💬 Ask me about **React , HTML5, CSS3**
 
-- 📫 How to reach me **shreyam966@gmail.com**
+- 📫 How to reach me **shreyam9118@gmail.com**
 
 - 📄 Know about my experiences [htttp....](htttp....)
 
