@@ -36,3 +36,4 @@
 <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=shreyam91&" alt="shreyam91" />
 </p>
 
+![snake gif](https://github.com/shreyam91/shreyam91/blob/output/github-contribution-grid-snake.gif)
