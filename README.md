@@ -1,4 +1,4 @@
-  <a href="https://app.daily.dev/shrey_" align="center" ><img src="https://api.daily.dev/devcards/v2/arQdZ5g855vhGpg2E8z3b.png?type=wide&r=8xz" width="652" alt="Shreyam's Dev Card"/></a>
+  <a href="https://app.daily.dev/shrey_" align-items ="center" ><img src="https://api.daily.dev/devcards/v2/arQdZ5g855vhGpg2E8z3b.png?type=wide&r=8xz" width="652" alt="Shreyam's Dev Card"/></a>
 
 <h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
@@ -36,4 +36,3 @@
 <img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=shreyam91&" alt="shreyam91" />
 </p>
 
-![snake gif](https://github.com/shreyam91/shreyam91/blob/output/github-contribution-grid-snake.gif)
