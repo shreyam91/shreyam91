@@ -1,6 +1,4 @@
-  <a href="https://app.daily.dev/shrey_" align-items ="center" ><img src="https://api.daily.dev/devcards/v2/arQdZ5g855vhGpg2E8z3b.png?type=wide&r=8xz" width="652" alt="Shreyam's Dev Card"/></a>
-
-<h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
+  <h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
 
