@@ -6,7 +6,7 @@
 
 - 🔭 I’m currently working on TaskScribe
 
-- 🌱 I’m currently learning **ReactNative, Node JS, other frameworks**
+- 🌱 I’m currently learning **React, Node JS, other frameworks**
 
 - 👨‍💻 All of my projects are available at [https://github.com/shreyam91](https://github.com/shreyam91)
 
