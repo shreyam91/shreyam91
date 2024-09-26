@@ -4,7 +4,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shreyam91&label=Profile%20views&color=0e75b6&style=flat" alt="shreyam91" /> </p>
 
-- 🔭 I’m currently working on [TaskScribe]
+- 🔭 I’m currently working on TaskScribe
 
 - 🌱 I’m currently learning **ReactNative, Node JS, other frameworks**
 
