@@ -28,6 +28,5 @@
 
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=shreyam91&show_icons=true&locale=en&layout=compact" alt="shreyam91" />
-<img align="right" src="https://github-readme-streak-stats.herokuapp.com/?user=shreyam91&" alt="shreyam91" />
 </p>
 
