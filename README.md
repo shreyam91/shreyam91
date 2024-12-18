@@ -1,9 +1,9 @@
   <h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<h3 align="center">A passionate Full Stack developer from India</h3>
 
 - 🔭 I’m currently working on TaskScribe
 
-- 🌱 I’m currently learning **React, Node JS, other frameworks**
+- 🌱 I’m currently learning **React, Node JS, etc...**
 
 - 👨‍💻 All of my projects are available at [https://github.com/shreyam91](https://github.com/shreyam91)
 
@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **shreyam9118@gmail.com**
 
-- 📄 Know about my experiences [htttp....](htttp....)
+- 📄 Know about my experiences (https://portfolio-shreyam91s-projects.vercel.app/)
 
 - ⚡ Fun fact **I am introvert**
 
