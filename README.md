@@ -1,9 +1,6 @@
   <h1 align="center">Hi 👋, I'm Shreyam Kanaujiya</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
 
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=shreyam91&label=Profile%20views&color=0e75b6&style=flat" alt="shreyam91" /> </p>
-
 - 🔭 I’m currently working on TaskScribe
 
 - 🌱 I’m currently learning **React, Node JS, other frameworks**
