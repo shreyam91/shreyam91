@@ -9,7 +9,7 @@ Hi 👋, I'm Shreyam Kanaujiya <br>A passionate Full Stack Developer from India 
   
 ## 🌐 Socials
 <!--  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/insta) -->
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)]((https://www.linkedin.com/in/shreyam-kanaujiya/)) 
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyam-kanaujiya/) 
 </div>
 
 <div align="center"> 
