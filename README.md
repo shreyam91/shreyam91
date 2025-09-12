@@ -1,9 +1,36 @@
 <div align="center">
   
 # 💫 About Me
-Hi 👋, I'm Shreyam Kanaujiya <br>A passionate Full Stack Developer from India with a keen interest in creating intuitive and efficient web applications. I thrive on challenges and love building both the front-end and back-end of applications, ensuring seamless user experiences and robust functionality.
-</div>
-<br>🔭 Currently, I'm focused on TaskScribe, a project that brings innovative solutions to task management.<br><br>🌱 Actively learning React, Node.js, and continuously expanding my skill set to stay updated with the latest in web development.<br><br>👨‍💻 You can explore all my projects and contributions on GitHub.<br><br>💬 Feel free to ask me about React, HTML5, CSS3, or anything related to full-stack development.<br><br>📫 Reach out to me via email: shreyam9118@gmail.com<br><br>📄 Check out my work and experiences on my Portfolio<br><br>⚡ Fun Fact: I'm an introvert, but I enjoy collaborating on exciting tech projects!<br><be>
+# Hi there 👋, I'm Shreyam Kanaujiya
+
+I'm a passionate **Full Stack Developer** from India with a keen interest in creating intuitive and efficient web applications. I thrive on challenges and love building both the front-end and back-end of applications, ensuring seamless user experiences and robust functionality.
+
+---
+
+### 🔭 Currently working on
+**TaskScribe** – bringing innovative solutions to task management.
+
+### 🌱 Learning & Growing
+Actively learning **React**, **Node.js**, and continuously expanding my skill set to stay updated with the latest in web development.
+
+### 👨‍💻 Explore my work
+You can check out all my projects and contributions on my [GitHub](https://github.com/shreyam9118).
+
+### 💬 Let's talk tech
+Feel free to ask me about **React**, **HTML5**, **CSS3**, or anything related to full-stack development.
+
+### 📫 Get in touch
+Email me at: [shreyam9118@gmail.com](mailto:shreyam9118@gmail.com)
+
+### 📄 Portfolio
+Check out my work and experiences on my [Portfolio](#) *(replace # with your portfolio URL)*.
+
+---
+
+⚡ **Fun Fact:** I'm an introvert, but I enjoy collaborating on exciting tech projects!
+
+---
+
 
 <div align="center"> 
   
