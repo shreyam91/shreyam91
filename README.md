@@ -13,16 +13,14 @@ I'm a passionate **Full Stack Developer** from India with a keen interest in cre
 Actively learning **React**, **Node.js**, and continuously expanding my skill set to stay updated with the latest in web development.
 
 ### 👨‍💻 Explore my work
-You can check out all my projects and contributions on my [GitHub](https://github.com/shreyam9118).
+You can check out all my projects and contributions on my [GitHub](https://github.com/shreyam91).
 
-### 💬 Let's talk tech
-Feel free to ask me about **React**, **HTML5**, **CSS3**, or anything related to full-stack development.
 
 ### 📫 Get in touch
 Email me at: [shreyam9118@gmail.com](mailto:shreyam9118@gmail.com)
 
 ### 📄 Portfolio
-Check out my work and experiences on my [Portfolio](#) *(replace # with your portfolio URL)*.
+Check out my work and experiences on my [Portfolio](https://portfolio-shreyam91s-projects.vercel.app/).
 
 ---
 
