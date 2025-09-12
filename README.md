@@ -1,6 +1,5 @@
 <div align="center">
   
-# 💫 About Me
 # Hi there 👋, I'm Shreyam Kanaujiya
 
 I'm a passionate **Full Stack Developer** from India with a keen interest in creating intuitive and efficient web applications. I thrive on challenges and love building both the front-end and back-end of applications, ensuring seamless user experiences and robust functionality.
