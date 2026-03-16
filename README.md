@@ -120,7 +120,7 @@ Docker • Git • GitHub Actions • AWS • Vercel • Netlify • Postman
 https://linkedin.com/in/shreyam-kanaujiya
 
 🌐 Portfolio  
-https://portfolio-shreyam91s-projects.vercel.app/
+[https://portfolio-shreyam91s-projects.vercel.app/](https://www.shreyam.online/)
 
 📧 Email  
 shreyam9118@gmail.com
