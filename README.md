@@ -39,37 +39,6 @@ Features
 
 ---
 
-### 💬 Real-Time Chat Application
-
-Real-time messaging platform using WebSockets.
-
-**Tech**
-
-React • Node.js • Socket.io • MongoDB
-
-Features
-
-- Instant messaging
-- Online user tracking
-- Secure authentication
-
----
-
-### 📊 Analytics Dashboard
-
-Interactive data visualization dashboard.
-
-**Tech**
-
-React • Chart.js • Express • MongoDB
-
-Features
-
-- Real-time analytics
-- Dynamic charts
-- Responsive UI
-
----
 
 # 🛠 Tech Stack
 
