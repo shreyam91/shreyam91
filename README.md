@@ -85,5 +85,5 @@ Built a collaborative task platform with live updates powered by Socket.io — n
 I'm open to **full-time SDE roles**, **remote contracts**, and **freelance projects** — especially anything involving backend architecture, real-time systems, or greenfield product builds.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-shreyam--kanaujiya-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/shreyam-kanaujiya)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white)](https://portfolio-shreyam91s-projects.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-000000?style=flat&logo=vercel&logoColor=white)]([https://www.shreyam.online/])
 [![Email](https://img.shields.io/badge/Email-shreyam9118@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shreyam9118@gmail.com)
