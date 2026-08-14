@@ -43,80 +43,175 @@ with urllib.request.urlopen(request) as response:
 if "errors" in result:
     raise RuntimeError(result["errors"])
 
-calendar = result["data"]["user"]["contributionsCollection"]["contributionCalendar"]
+calendar = (
+    result["data"]["user"]
+    ["contributionsCollection"]
+    ["contributionCalendar"]
+)
+
 weeks = calendar["weeks"]
 total = calendar["totalContributions"]
 
-CELL = 16
-GAP = 5
-LEFT = 35
-GROUND = 235
 
-WIDTH = LEFT + len(weeks) * (CELL + GAP) + 35
-HEIGHT = 310
+# ============================================================
+# LAYOUT
+# ============================================================
 
-svg = f"""<svg xmlns="http://www.w3.org/2000/svg"
+LEFT = 42
+CELL = 14
+GAP = 4
+
+WEEK_WIDTH = CELL + GAP
+
+GRID_WIDTH = len(weeks) * WEEK_WIDTH
+
+WIDTH = LEFT + GRID_WIDTH + 45
+
+GROUND_Y = 225
+
+HEATMAP_TOP = 245
+HEATMAP_CELL = 14
+HEATMAP_GAP = 4
+
+HEIGHT = HEATMAP_TOP + (7 * (HEATMAP_CELL + HEATMAP_GAP)) + 45
+
+
+# ============================================================
+# COLORS
+# ============================================================
+
+def activity_color(count):
+
+    if count == 0:
+        return "#eef2f7"
+
+    if count <= 2:
+        return "#bbf7d0"
+
+    if count <= 5:
+        return "#4ade80"
+
+    if count <= 9:
+        return "#22c55e"
+
+    return "#15803d"
+
+
+def plant_color(count):
+
+    if count <= 2:
+        return "#86efac"
+
+    if count <= 5:
+        return "#4ade80"
+
+    if count <= 9:
+        return "#22c55e"
+
+    return "#15803d"
+
+
+def plant_height(count):
+
+    if count <= 2:
+        return 25
+
+    if count <= 5:
+        return 42
+
+    if count <= 9:
+        return 60
+
+    return 82
+
+
+# ============================================================
+# SVG START
+# ============================================================
+
+svg = f"""<svg
+xmlns="http://www.w3.org/2000/svg"
 viewBox="0 0 {WIDTH} {HEIGHT}"
 width="{WIDTH}"
-height="{HEIGHT}">
+height="{HEIGHT}"
+role="img"
+aria-label="Shreyam's GitHub Code Garden">
 
 <defs>
 
-<style>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#f8fbff"/>
+        <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
 
-.plant {{
-    transform-box: fill-box;
-    transform-origin: bottom center;
-    animation: grow 1.4s ease-out both;
-}}
+    <linearGradient id="soil" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#57534e"/>
+        <stop offset="50%" stop-color="#44403c"/>
+        <stop offset="100%" stop-color="#57534e"/>
+    </linearGradient>
 
-.leaf {{
-    transform-box: fill-box;
-    transform-origin: center;
-    animation: sway 3s ease-in-out infinite alternate;
-}}
+    <style>
 
-.flower {{
-    transform-box: fill-box;
-    transform-origin: center;
-    animation: bloom 1s ease-out both;
-}}
+        .plant {{
+            transform-box: fill-box;
+            transform-origin: bottom center;
+            animation: grow 1.5s ease-out both;
+        }}
 
-@keyframes grow {{
-    from {{
-        transform: scaleY(0);
-        opacity: 0;
-    }}
-    to {{
-        transform: scaleY(1);
-        opacity: 1;
-    }}
-}}
+        .leaf {{
+            transform-box: fill-box;
+            transform-origin: center;
+            animation: sway 3s ease-in-out infinite alternate;
+        }}
 
-@keyframes sway {{
-    from {{ transform: rotate(-3deg); }}
-    to   {{ transform: rotate(3deg); }}
-}}
+        .flower {{
+            transform-box: fill-box;
+            transform-origin: center;
+            animation: bloom 1s ease-out both;
+        }}
 
-@keyframes bloom {{
-    from {{
-        transform: scale(0);
-        opacity: 0;
-    }}
-    to {{
-        transform: scale(1);
-        opacity: 1;
-    }}
-}}
+        @keyframes grow {{
+            from {{
+                transform: scaleY(0);
+                opacity: 0;
+            }}
 
-</style>
+            to {{
+                transform: scaleY(1);
+                opacity: 1;
+            }}
+        }}
 
-<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0%" stop-color="#f8fbff"/>
-    <stop offset="100%" stop-color="#ffffff"/>
-</linearGradient>
+        @keyframes sway {{
+            from {{
+                transform: rotate(-3deg);
+            }}
+
+            to {{
+                transform: rotate(3deg);
+            }}
+        }}
+
+        @keyframes bloom {{
+            from {{
+                transform: scale(0);
+                opacity: 0;
+            }}
+
+            to {{
+                transform: scale(1);
+                opacity: 1;
+            }}
+        }}
+
+    </style>
 
 </defs>
+
+
+<!-- ====================================================== -->
+<!-- BACKGROUND                                             -->
+<!-- ====================================================== -->
 
 <rect
     width="100%"
@@ -125,82 +220,114 @@ height="{HEIGHT}">
     fill="url(#sky)"
 />
 
+
+<!-- ====================================================== -->
+<!-- HEADER                                                  -->
+<!-- ====================================================== -->
+
 <text
-    x="30"
-    y="32"
-    font-family="Arial, sans-serif"
-    font-size="18"
+    x="32"
+    y="34"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="19"
     font-weight="600"
     fill="#111827">
-    🌱 Code Garden
+
+    Code Garden
+
 </text>
 
 <text
-    x="30"
-    y="53"
-    font-family="Arial, sans-serif"
+    x="32"
+    y="55"
+    font-family="Arial, Helvetica, sans-serif"
     font-size="11"
     fill="#64748b">
+
     Growing from my GitHub activity
+
 </text>
 
-<!-- Ground -->
-<line
-    x1="25"
-    y1="{GROUND}"
-    x2="{WIDTH-25}"
-    y2="{GROUND}"
-    stroke="#475569"
-    stroke-width="5"
+
+<!-- ====================================================== -->
+<!-- SUN                                                     -->
+<!-- ====================================================== -->
+
+<circle
+    cx="{WIDTH - 55}"
+    cy="45"
+    r="18"
+    fill="#fde68a"
+    opacity="0.9"
+/>
+
+
+<!-- ====================================================== -->
+<!-- SOIL                                                    -->
+<!-- ====================================================== -->
+
+<path
+    d="
+        M25 {GROUND_Y}
+        Q {WIDTH//4} {GROUND_Y-8}
+          {WIDTH//2} {GROUND_Y}
+        T {WIDTH-25} {GROUND_Y}
+    "
+    fill="none"
+    stroke="url(#soil)"
+    stroke-width="8"
     stroke-linecap="round"
 />
 
+<path
+    d="
+        M25 {GROUND_Y+8}
+        Q {WIDTH//4} {GROUND_Y}
+          {WIDTH//2} {GROUND_Y+8}
+        T {WIDTH-25} {GROUND_Y+8}
+    "
+    fill="none"
+    stroke="#a8a29e"
+    stroke-width="2"
+    opacity="0.6"
+/>
+
+
+<!-- ====================================================== -->
+<!-- PLANTS                                                  -->
+<!-- ====================================================== -->
 """
 
-# --------------------------------------------
-# CONTRIBUTION DATA → PLANTS
-# --------------------------------------------
+
+# ============================================================
+# GENERATE PLANTS FROM REAL CONTRIBUTIONS
+# ============================================================
 
 for week_index, week in enumerate(weeks):
 
-    x = LEFT + week_index * (CELL + GAP)
+    x = LEFT + week_index * WEEK_WIDTH
 
     for day in week["contributionDays"]:
 
         count = day["contributionCount"]
-        weekday = day["weekday"]
 
         if count == 0:
             continue
 
-        # Contribution level controls plant height.
-        if count <= 2:
-            height = 25
-            color = "#86efac"
+        color = plant_color(count)
+        height = plant_height(count)
 
-        elif count <= 5:
-            height = 42
-            color = "#4ade80"
+        # Every contribution day gets a plant.
+        # More contributions = taller plant.
 
-        elif count <= 9:
-            height = 62
-            color = "#22c55e"
+        bottom = GROUND_Y
 
-        else:
-            height = 85
-            color = "#15803d"
+        top = bottom - height
 
-        # Position from actual GitHub weekday.
-        # Monday=1 ... Sunday=7
-        # This keeps the contribution calendar structure.
-        spacing = (GROUND - 70) / 6
-        base_y = GROUND - ((weekday - 1) * spacing)
-
-        # Garden plant grows upward from its contribution cell.
-        plant_bottom = GROUND - (weekday - 1) * 2
-        plant_top = plant_bottom - height
-
-        delay = (week_index * 0.025) + (weekday * 0.04)
+        delay = (
+            week_index * 0.018
+            + day["weekday"] * 0.04
+        )
 
         svg += f"""
 
@@ -208,149 +335,259 @@ for week_index, week in enumerate(weeks):
     class="plant"
     style="animation-delay:{delay:.2f}s">
 
-    <!-- stem -->
+    <!-- STEM -->
+
     <line
         x1="{x}"
-        y1="{plant_bottom}"
+        y1="{bottom}"
         x2="{x}"
-        y2="{plant_top}"
+        y2="{top}"
         stroke="{color}"
         stroke-width="3"
         stroke-linecap="round"
     />
 
-    <!-- left leaf -->
+
+    <!-- LEFT LEAF -->
+
     <ellipse
         class="leaf"
-        cx="{x-7}"
-        cy="{plant_top + height*0.45:.1f}"
-        rx="8"
-        ry="4"
+        cx="{x - 7}"
+        cy="{top + height * 0.48:.1f}"
+        rx="9"
+        ry="4.5"
         fill="{color}"
-        transform="rotate(-25 {x-7} {plant_top + height*0.45:.1f})"
+        transform="
+            rotate(
+                -25
+                {x - 7}
+                {top + height * 0.48:.1f}
+            )
+        "
     />
 
-    <!-- right leaf -->
+
+    <!-- RIGHT LEAF -->
+
     <ellipse
         class="leaf"
-        cx="{x+7}"
-        cy="{plant_top + height*0.60:.1f}"
-        rx="8"
-        ry="4"
+        cx="{x + 7}"
+        cy="{top + height * 0.65:.1f}"
+        rx="9"
+        ry="4.5"
         fill="{color}"
-        transform="rotate(25 {x+7} {plant_top + height*0.60:.1f})"
+        transform="
+            rotate(
+                25
+                {x + 7}
+                {top + height * 0.65:.1f}
+            )
+        "
     />
 """
 
-        # High contribution = flower
+
+        # ====================================================
+        # FLOWER
+        # ====================================================
+
         if count >= 6:
 
-            flower_y = plant_top - 3
+            flower_y = top - 5
 
-            flower_color = (
-                "#60a5fa"
-                if count < 10
-                else "#a78bfa"
-            )
+            if count >= 10:
+                flower = "#a78bfa"
+            else:
+                flower = "#60a5fa"
 
             svg += f"""
 
     <g
         class="flower"
-        style="animation-delay:{delay + 0.7:.2f}s">
+        style="animation-delay:{delay + 0.6:.2f}s">
 
-        <circle cx="{x-5}" cy="{flower_y}" r="4"
-                fill="{flower_color}"/>
+        <circle
+            cx="{x - 5}"
+            cy="{flower_y}"
+            r="4"
+            fill="{flower}"
+        />
 
-        <circle cx="{x+5}" cy="{flower_y}" r="4"
-                fill="{flower_color}"/>
+        <circle
+            cx="{x + 5}"
+            cy="{flower_y}"
+            r="4"
+            fill="{flower}"
+        />
 
-        <circle cx="{x}" cy="{flower_y-5}" r="4"
-                fill="{flower_color}"/>
+        <circle
+            cx="{x}"
+            cy="{flower_y - 5}"
+            r="4"
+            fill="{flower}"
+        />
 
-        <circle cx="{x}" cy="{flower_y+5}" r="4"
-                fill="{flower_color}"/>
+        <circle
+            cx="{x}"
+            cy="{flower_y + 5}"
+            r="4"
+            fill="{flower}"
+        />
 
-        <circle cx="{x}" cy="{flower_y}" r="3"
-                fill="#fbbf24"/>
+        <circle
+            cx="{x}"
+            cy="{flower_y}"
+            r="3"
+            fill="#fbbf24"
+        />
 
     </g>
 """
 
+
         svg += "</g>\n"
 
-# --------------------------------------------
-# ACTIVITY GRID
-# --------------------------------------------
 
-GRID_Y = 265
+# ============================================================
+# ACTIVITY HEATMAP
+# ============================================================
 
 svg += f"""
+
+<!-- ====================================================== -->
+<!-- ACTIVITY                                               -->
+<!-- ====================================================== -->
+
 <text
-    x="30"
-    y="{GRID_Y - 10}"
-    font-family="Arial, sans-serif"
-    font-size="10"
-    fill="#64748b">
+    x="{LEFT}"
+    y="{HEATMAP_TOP - 12}"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="11"
+    font-weight="500"
+    fill="#475569">
+
     GitHub activity
+
 </text>
 """
 
+
+# IMPORTANT:
+# contributionDays are Monday-Sunday.
+# We explicitly give each day its own 14x14 box.
+
 for week_index, week in enumerate(weeks):
 
-    x = LEFT + week_index * (CELL + GAP)
+    x = LEFT + week_index * WEEK_WIDTH
 
-    for day_index, day in enumerate(week["contributionDays"]):
+    for day in week["contributionDays"]:
 
         count = day["contributionCount"]
 
-        if count == 0:
-            color = "#f1f5f9"
-        elif count <= 2:
-            color = "#dcfce7"
-        elif count <= 5:
-            color = "#86efac"
-        elif count <= 9:
-            color = "#22c55e"
-        else:
-            color = "#15803d"
+        weekday = day["weekday"]
 
-        y = GRID_Y + (day_index * (CELL + GAP) / 7)
+        color = activity_color(count)
+
+        y = (
+            HEATMAP_TOP
+            + (weekday - 1) * (HEATMAP_CELL + HEATMAP_GAP)
+        )
 
         svg += f"""
+
 <rect
     x="{x}"
-    y="{y:.1f}"
-    width="{CELL}"
-    height="{CELL}"
+    y="{y}"
+    width="{HEATMAP_CELL}"
+    height="{HEATMAP_CELL}"
     rx="3"
     fill="{color}"
 />
 """
 
+
+# ============================================================
+# LEGEND
+# ============================================================
+
+legend_y = HEIGHT - 24
+
 svg += f"""
 
 <text
-    x="30"
-    y="{HEIGHT - 15}"
-    font-family="Arial, sans-serif"
+    x="{LEFT}"
+    y="{legend_y}"
+    font-family="Arial, Helvetica, sans-serif"
     font-size="10"
     fill="#94a3b8">
-    {total} contributions
+
+    Less
+
 </text>
+"""
+
+
+legend_x = LEFT + 32
+
+for i, color in enumerate([
+    "#eef2f7",
+    "#bbf7d0",
+    "#4ade80",
+    "#22c55e",
+    "#15803d"
+]):
+
+    x = legend_x + i * 20
+
+    svg += f"""
+
+<rect
+    x="{x}"
+    y="{legend_y - 10}"
+    width="13"
+    height="13"
+    rx="3"
+    fill="{color}"
+/>
+"""
+
+
+svg += f"""
+
+<text
+    x="{legend_x + 110}"
+    y="{legend_y}"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="10"
+    fill="#94a3b8">
+
+    More
+
+</text>
+
+
+<!-- CONTRIBUTION TOTAL -->
 
 <text
     x="{WIDTH - 30}"
-    y="{HEIGHT - 15}"
+    y="{legend_y}"
     text-anchor="end"
-    font-family="Arial, sans-serif"
+    font-family="Arial, Helvetica, sans-serif"
     font-size="10"
-    fill="#94a3b8">
-    github.com/{USERNAME}
+    fill="#64748b">
+
+    {total} contributions
+
 </text>
+
 
 </svg>
 """
+
+
+# ============================================================
+# WRITE FILE
+# ============================================================
 
 os.makedirs("code-garden", exist_ok=True)
 
@@ -359,6 +596,9 @@ with open(
     "w",
     encoding="utf-8"
 ) as file:
+
     file.write(svg)
 
-print(f"🌱 Code Garden generated: {total} contributions")
+print(
+    f"🌱 Code Garden generated from {total} contributions"
+)
