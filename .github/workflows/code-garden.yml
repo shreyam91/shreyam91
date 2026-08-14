@@ -1,16 +1,16 @@
-name: 🌱 Generate Code Garden
+name: 🌱 Update Code Garden
 
 on:
+  workflow_dispatch:
+
   schedule:
     - cron: "17 3 * * *"
-
-  workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  generate:
+  garden:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,13 +22,12 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Generate Code Garden
+      - name: Generate garden
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python code-garden/generate.py
+        run: python code-garden/generate.py
 
-      - name: Commit Code Garden
+      - name: Commit garden
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -36,7 +35,7 @@ jobs:
           git add code-garden/garden.svg
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes"
           else
             git commit -m "🌱 Update Code Garden"
             git push
