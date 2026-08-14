@@ -1,0 +1,395 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 300"
+     width="1200"
+     height="300"
+     role="img"
+     aria-label="Shreyam's Code Garden">
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <linearGradient id="ground" x1="0" x2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="50%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+
+    <style>
+      .plant {
+        transform-box: fill-box;
+        transform-origin: bottom center;
+        animation: grow 2s ease-out forwards;
+      }
+
+      .leaf {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: sway 3s ease-in-out infinite alternate;
+      }
+
+      .flower {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: bloom 1.5s ease-out forwards;
+      }
+
+      .cloud {
+        animation: drift 18s linear infinite;
+      }
+
+      @keyframes grow {
+        0% {
+          transform: scaleY(0);
+          opacity: 0;
+        }
+        100% {
+          transform: scaleY(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes sway {
+        0% {
+          transform: rotate(-4deg);
+        }
+        100% {
+          transform: rotate(4deg);
+        }
+      }
+
+      @keyframes bloom {
+        0% {
+          transform: scale(0);
+          opacity: 0;
+        }
+        70% {
+          transform: scale(1.15);
+        }
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+
+      @keyframes drift {
+        0% {
+          transform: translateX(-100px);
+        }
+        100% {
+          transform: translateX(1300px);
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="300" rx="18" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="1080" cy="55" r="25" fill="#fde68a" opacity="0.9"/>
+  <circle cx="1080" cy="55" r="40" fill="#fde68a" opacity="0.18"
+          filter="url(#glow)"/>
+
+  <!-- Clouds -->
+  <g class="cloud" opacity="0.45">
+    <circle cx="100" cy="70" r="18" fill="#dbeafe"/>
+    <circle cx="125" cy="65" r="25" fill="#dbeafe"/>
+    <circle cx="150" cy="72" r="17" fill="#dbeafe"/>
+    <rect x="100" y="70" width="50" height="18" rx="9"
+          fill="#dbeafe"/>
+  </g>
+
+  <g class="cloud" opacity="0.3">
+    <circle cx="500" cy="100" r="15" fill="#e2e8f0"/>
+    <circle cx="525" cy="95" r="22" fill="#e2e8f0"/>
+    <circle cx="550" cy="102" r="15" fill="#e2e8f0"/>
+    <rect x="500" y="100" width="50" height="15" rx="8"
+          fill="#e2e8f0"/>
+  </g>
+
+  <!-- Heading -->
+  <text x="55"
+        y="50"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="22"
+        font-weight="600"
+        fill="#111827">
+    🌱 Code Garden
+  </text>
+
+  <text x="55"
+        y="75"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        fill="#64748b">
+    Growing one contribution at a time.
+  </text>
+
+  <!-- Ground -->
+  <path d="M30 240 Q300 225 600 240 T1170 240"
+        fill="none"
+        stroke="url(#ground)"
+        stroke-width="6"
+        stroke-linecap="round"/>
+
+  <path d="M30 247 Q300 232 600 247 T1170 247"
+        fill="none"
+        stroke="#94a3b8"
+        stroke-width="2"
+        opacity="0.35"/>
+
+  <!-- Plant 1 -->
+  <g class="plant" style="animation-delay:0.1s">
+
+    <line x1="100" y1="240" x2="100" y2="195"
+          stroke="#22c55e" stroke-width="4"
+          stroke-linecap="round"/>
+
+    <ellipse class="leaf"
+             cx="91" cy="220"
+             rx="13" ry="7"
+             fill="#4ade80"
+             transform="rotate(-25 91 220)"/>
+
+    <ellipse class="leaf"
+             cx="110" cy="207"
+             rx="13" ry="7"
+             fill="#22c55e"
+             transform="rotate(25 110 207)"/>
+
+  </g>
+
+  <!-- Plant 2 -->
+  <g class="plant" style="animation-delay:0.3s">
+
+    <line x1="190" y1="240" x2="190" y2="170"
+          stroke="#16a34a" stroke-width="5"
+          stroke-linecap="round"/>
+
+    <ellipse class="leaf"
+             cx="177" cy="210"
+             rx="15" ry="8"
+             fill="#22c55e"
+             transform="rotate(-30 177 210)"/>
+
+    <ellipse class="leaf"
+             cx="204" cy="195"
+             rx="15" ry="8"
+             fill="#16a34a"
+             transform="rotate(30 204 195)"/>
+
+    <ellipse class="leaf"
+             cx="177" cy="185"
+             rx="13" ry="7"
+             fill="#4ade80"
+             transform="rotate(-25 177 185)"/>
+
+  </g>
+
+  <!-- Plant 3 -->
+  <g class="plant" style="animation-delay:0.5s">
+
+    <line x1="290" y1="240" x2="290" y2="150"
+          stroke="#15803d" stroke-width="6"
+          stroke-linecap="round"/>
+
+    <ellipse class="leaf"
+             cx="273" cy="205"
+             rx="18" ry="9"
+             fill="#22c55e"
+             transform="rotate(-30 273 205)"/>
+
+    <ellipse class="leaf"
+             cx="308" cy="190"
+             rx="18" ry="9"
+             fill="#16a34a"
+             transform="rotate(30 308 190)"/>
+
+    <ellipse class="leaf"
+             cx="273" cy="175"
+             rx="17" ry="8"
+             fill="#4ade80"
+             transform="rotate(-25 273 175)"/>
+
+    <ellipse class="leaf"
+             cx="307" cy="160"
+             rx="17" ry="8"
+             fill="#22c55e"
+             transform="rotate(25 307 160)"/>
+
+  </g>
+
+  <!-- Large Tree -->
+  <g class="plant" style="animation-delay:0.7s">
+
+    <line x1="430" y1="240" x2="430" y2="135"
+          stroke="#166534"
+          stroke-width="8"
+          stroke-linecap="round"/>
+
+    <circle cx="430" cy="115" r="34"
+            fill="#22c55e"/>
+
+    <circle cx="400" cy="130" r="28"
+            fill="#16a34a"/>
+
+    <circle cx="460" cy="130" r="28"
+            fill="#15803d"/>
+
+    <circle cx="430" cy="145" r="30"
+            fill="#4ade80"/>
+
+  </g>
+
+  <!-- Flower Plant -->
+  <g class="plant" style="animation-delay:0.9s">
+
+    <line x1="570" y1="240" x2="570" y2="165"
+          stroke="#16a34a"
+          stroke-width="5"
+          stroke-linecap="round"/>
+
+    <ellipse class="leaf"
+             cx="552" cy="210"
+             rx="16" ry="8"
+             fill="#22c55e"
+             transform="rotate(-30 552 210)"/>
+
+    <ellipse class="leaf"
+             cx="588" cy="195"
+             rx="16" ry="8"
+             fill="#16a34a"
+             transform="rotate(30 588 195)"/>
+
+    <!-- Flower -->
+    <g class="flower" style="animation-delay:1.6s">
+
+      <circle cx="570" cy="155" r="12"
+              fill="#f9a8d4"/>
+
+      <circle cx="558" cy="155" r="9"
+              fill="#f472b6"/>
+
+      <circle cx="582" cy="155" r="9"
+              fill="#f472b6"/>
+
+      <circle cx="570" cy="143" r="9"
+              fill="#f9a8d4"/>
+
+      <circle cx="570" cy="167" r="9"
+              fill="#f9a8d4"/>
+
+      <circle cx="570" cy="155" r="6"
+              fill="#fbbf24"/>
+
+    </g>
+
+  </g>
+
+  <!-- Plant 5 -->
+  <g class="plant" style="animation-delay:1.1s">
+
+    <line x1="700" y1="240" x2="700" y2="180"
+          stroke="#16a34a"
+          stroke-width="5"
+          stroke-linecap="round"/>
+
+    <ellipse class="leaf"
+             cx="682" cy="215"
+             rx="16" ry="8"
+             fill="#4ade80"
+             transform="rotate(-30 682 215)"/>
+
+    <ellipse class="leaf"
+             cx="718" cy="198"
+             rx="16" ry="8"
+             fill="#22c55e"
+             transform="rotate(30 718 198)"/>
+
+  </g>
+
+  <!-- Large Tree 2 -->
+  <g class="plant" style="animation-delay:1.3s">
+
+    <line x1="830" y1="240" x2="830" y2="125"
+          stroke="#166534"
+          stroke-width="8"
+          stroke-linecap="round"/>
+
+    <circle cx="830" cy="105" r="34"
+            fill="#16a34a"/>
+
+    <circle cx="800" cy="120" r="28"
+            fill="#22c55e"/>
+
+    <circle cx="860" cy="120" r="28"
+            fill="#15803d"/>
+
+    <circle cx="830" cy="135" r="30"
+            fill="#4ade80"/>
+
+  </g>
+
+  <!-- Small Flowers -->
+  <g class="flower" style="animation-delay:2s">
+
+    <circle cx="965" cy="190" r="9" fill="#a78bfa"/>
+    <circle cx="952" cy="190" r="7" fill="#c4b5fd"/>
+    <circle cx="978" cy="190" r="7" fill="#c4b5fd"/>
+    <circle cx="965" cy="177" r="7" fill="#a78bfa"/>
+    <circle cx="965" cy="203" r="7" fill="#a78bfa"/>
+    <circle cx="965" cy="190" r="4" fill="#fbbf24"/>
+
+  </g>
+
+  <line x1="965" y1="240" x2="965" y2="195"
+        stroke="#22c55e"
+        stroke-width="4"/>
+
+  <!-- Small Sprouts -->
+  <g class="plant" style="animation-delay:1.5s">
+
+    <line x1="1040" y1="240" x2="1040" y2="215"
+          stroke="#22c55e"
+          stroke-width="3"/>
+
+    <ellipse class="leaf"
+             cx="1032" cy="220"
+             rx="9" ry="5"
+             fill="#4ade80"
+             transform="rotate(-25 1032 220)"/>
+
+    <ellipse class="leaf"
+             cx="1048" cy="215"
+             rx="9" ry="5"
+             fill="#22c55e"
+             transform="rotate(25 1048 215)"/>
+
+  </g>
+
+  <!-- Footer -->
+  <text x="55"
+        y="278"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        fill="#94a3b8">
+    github.com/shreyam91
+  </text>
+
+  <text x="1145"
+        y="278"
+        text-anchor="end"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="11"
+        fill="#94a3b8">
+    Keep growing 🌱
+  </text>
+
+</svg>
