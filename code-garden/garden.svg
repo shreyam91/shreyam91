@@ -1,395 +1,7084 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-     viewBox="0 0 1200 300"
-     width="1200"
-     height="300"
-     role="img"
-     aria-label="Shreyam's Code Garden">
+viewBox="0 0 1183 310"
+width="1183"
+height="310">
 
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#f8fbff"/>
-      <stop offset="100%" stop-color="#ffffff"/>
-    </linearGradient>
+<defs>
 
-    <linearGradient id="ground" x1="0" x2="1">
-      <stop offset="0%" stop-color="#334155"/>
-      <stop offset="50%" stop-color="#475569"/>
-      <stop offset="100%" stop-color="#334155"/>
-    </linearGradient>
+<style>
 
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="5"/>
-    </filter>
+.plant {
+    transform-box: fill-box;
+    transform-origin: bottom center;
+    animation: grow 1.4s ease-out both;
+}
 
-    <style>
-      .plant {
-        transform-box: fill-box;
-        transform-origin: bottom center;
-        animation: grow 2s ease-out forwards;
-      }
+.leaf {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: sway 3s ease-in-out infinite alternate;
+}
 
-      .leaf {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: sway 3s ease-in-out infinite alternate;
-      }
+.flower {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: bloom 1s ease-out both;
+}
 
-      .flower {
-        transform-box: fill-box;
-        transform-origin: center;
-        animation: bloom 1.5s ease-out forwards;
-      }
+@keyframes grow {
+    from {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+    to {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}
 
-      .cloud {
-        animation: drift 18s linear infinite;
-      }
+@keyframes sway {
+    from { transform: rotate(-3deg); }
+    to   { transform: rotate(3deg); }
+}
 
-      @keyframes grow {
-        0% {
-          transform: scaleY(0);
-          opacity: 0;
-        }
-        100% {
-          transform: scaleY(1);
-          opacity: 1;
-        }
-      }
+@keyframes bloom {
+    from {
+        transform: scale(0);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
 
-      @keyframes sway {
-        0% {
-          transform: rotate(-4deg);
-        }
-        100% {
-          transform: rotate(4deg);
-        }
-      }
+</style>
 
-      @keyframes bloom {
-        0% {
-          transform: scale(0);
-          opacity: 0;
-        }
-        70% {
-          transform: scale(1.15);
-        }
-        100% {
-          transform: scale(1);
-          opacity: 1;
-        }
-      }
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#f8fbff"/>
+    <stop offset="100%" stop-color="#ffffff"/>
+</linearGradient>
 
-      @keyframes drift {
-        0% {
-          transform: translateX(-100px);
-        }
-        100% {
-          transform: translateX(1300px);
-        }
-      }
-    </style>
-  </defs>
+</defs>
 
-  <!-- Background -->
-  <rect width="1200" height="300" rx="18" fill="url(#sky)"/>
+<rect
+    width="100%"
+    height="100%"
+    rx="18"
+    fill="url(#sky)"
+/>
 
-  <!-- Sun -->
-  <circle cx="1080" cy="55" r="25" fill="#fde68a" opacity="0.9"/>
-  <circle cx="1080" cy="55" r="40" fill="#fde68a" opacity="0.18"
-          filter="url(#glow)"/>
-
-  <!-- Clouds -->
-  <g class="cloud" opacity="0.45">
-    <circle cx="100" cy="70" r="18" fill="#dbeafe"/>
-    <circle cx="125" cy="65" r="25" fill="#dbeafe"/>
-    <circle cx="150" cy="72" r="17" fill="#dbeafe"/>
-    <rect x="100" y="70" width="50" height="18" rx="9"
-          fill="#dbeafe"/>
-  </g>
-
-  <g class="cloud" opacity="0.3">
-    <circle cx="500" cy="100" r="15" fill="#e2e8f0"/>
-    <circle cx="525" cy="95" r="22" fill="#e2e8f0"/>
-    <circle cx="550" cy="102" r="15" fill="#e2e8f0"/>
-    <rect x="500" y="100" width="50" height="15" rx="8"
-          fill="#e2e8f0"/>
-  </g>
-
-  <!-- Heading -->
-  <text x="55"
-        y="50"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="22"
-        font-weight="600"
-        fill="#111827">
+<text
+    x="30"
+    y="32"
+    font-family="Arial, sans-serif"
+    font-size="18"
+    font-weight="600"
+    fill="#111827">
     🌱 Code Garden
-  </text>
+</text>
 
-  <text x="55"
-        y="75"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="13"
-        fill="#64748b">
-    Growing one contribution at a time.
-  </text>
+<text
+    x="30"
+    y="53"
+    font-family="Arial, sans-serif"
+    font-size="11"
+    fill="#64748b">
+    Growing from my GitHub activity
+</text>
 
-  <!-- Ground -->
-  <path d="M30 240 Q300 225 600 240 T1170 240"
-        fill="none"
-        stroke="url(#ground)"
-        stroke-width="6"
-        stroke-linecap="round"/>
+<!-- Ground -->
+<line
+    x1="25"
+    y1="235"
+    x2="1158"
+    y2="235"
+    stroke="#475569"
+    stroke-width="5"
+    stroke-linecap="round"
+/>
 
-  <path d="M30 247 Q300 232 600 247 T1170 247"
-        fill="none"
-        stroke="#94a3b8"
-        stroke-width="2"
-        opacity="0.35"/>
 
-  <!-- Plant 1 -->
-  <g class="plant" style="animation-delay:0.1s">
 
-    <line x1="100" y1="240" x2="100" y2="195"
-          stroke="#22c55e" stroke-width="4"
-          stroke-linecap="round"/>
+<g
+    class="plant"
+    style="animation-delay:0.00s">
 
-    <ellipse class="leaf"
-             cx="91" cy="220"
-             rx="13" ry="7"
-             fill="#4ade80"
-             transform="rotate(-25 91 220)"/>
+    <!-- stem -->
+    <line
+        x1="35"
+        y1="237"
+        x2="35"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <ellipse class="leaf"
-             cx="110" cy="207"
-             rx="13" ry="7"
-             fill="#22c55e"
-             transform="rotate(25 110 207)"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="28"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 28 223.2)"
+    />
 
-  </g>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="42"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 42 227.0)"
+    />
+</g>
 
-  <!-- Plant 2 -->
-  <g class="plant" style="animation-delay:0.3s">
 
-    <line x1="190" y1="240" x2="190" y2="170"
-          stroke="#16a34a" stroke-width="5"
-          stroke-linecap="round"/>
+<g
+    class="plant"
+    style="animation-delay:0.04s">
 
-    <ellipse class="leaf"
-             cx="177" cy="210"
-             rx="15" ry="8"
-             fill="#22c55e"
-             transform="rotate(-30 177 210)"/>
+    <!-- stem -->
+    <line
+        x1="35"
+        y1="235"
+        x2="35"
+        y2="193"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <ellipse class="leaf"
-             cx="204" cy="195"
-             rx="15" ry="8"
-             fill="#16a34a"
-             transform="rotate(30 204 195)"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="28"
+        cy="211.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 28 211.9)"
+    />
 
-    <ellipse class="leaf"
-             cx="177" cy="185"
-             rx="13" ry="7"
-             fill="#4ade80"
-             transform="rotate(-25 177 185)"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="42"
+        cy="218.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 42 218.2)"
+    />
+</g>
 
-  </g>
 
-  <!-- Plant 3 -->
-  <g class="plant" style="animation-delay:0.5s">
+<g
+    class="plant"
+    style="animation-delay:0.08s">
 
-    <line x1="290" y1="240" x2="290" y2="150"
-          stroke="#15803d" stroke-width="6"
-          stroke-linecap="round"/>
+    <!-- stem -->
+    <line
+        x1="35"
+        y1="233"
+        x2="35"
+        y2="208"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <ellipse class="leaf"
-             cx="273" cy="205"
-             rx="18" ry="9"
-             fill="#22c55e"
-             transform="rotate(-30 273 205)"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="28"
+        cy="219.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 28 219.2)"
+    />
 
-    <ellipse class="leaf"
-             cx="308" cy="190"
-             rx="18" ry="9"
-             fill="#16a34a"
-             transform="rotate(30 308 190)"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="42"
+        cy="223.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 42 223.0)"
+    />
+</g>
 
-    <ellipse class="leaf"
-             cx="273" cy="175"
-             rx="17" ry="8"
-             fill="#4ade80"
-             transform="rotate(-25 273 175)"/>
 
-    <ellipse class="leaf"
-             cx="307" cy="160"
-             rx="17" ry="8"
-             fill="#22c55e"
-             transform="rotate(25 307 160)"/>
+<g
+    class="plant"
+    style="animation-delay:0.12s">
 
-  </g>
+    <!-- stem -->
+    <line
+        x1="35"
+        y1="231"
+        x2="35"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-  <!-- Large Tree -->
-  <g class="plant" style="animation-delay:0.7s">
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="28"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 28 217.2)"
+    />
 
-    <line x1="430" y1="240" x2="430" y2="135"
-          stroke="#166534"
-          stroke-width="8"
-          stroke-linecap="round"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="42"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 42 221.0)"
+    />
+</g>
 
-    <circle cx="430" cy="115" r="34"
-            fill="#22c55e"/>
 
-    <circle cx="400" cy="130" r="28"
-            fill="#16a34a"/>
+<g
+    class="plant"
+    style="animation-delay:0.16s">
 
-    <circle cx="460" cy="130" r="28"
-            fill="#15803d"/>
+    <!-- stem -->
+    <line
+        x1="35"
+        y1="229"
+        x2="35"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <circle cx="430" cy="145" r="30"
-            fill="#4ade80"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="28"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 28 215.2)"
+    />
 
-  </g>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="42"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 42 219.0)"
+    />
+</g>
 
-  <!-- Flower Plant -->
-  <g class="plant" style="animation-delay:0.9s">
 
-    <line x1="570" y1="240" x2="570" y2="165"
-          stroke="#16a34a"
-          stroke-width="5"
-          stroke-linecap="round"/>
+<g
+    class="plant"
+    style="animation-delay:0.14s">
 
-    <ellipse class="leaf"
-             cx="552" cy="210"
-             rx="16" ry="8"
-             fill="#22c55e"
-             transform="rotate(-30 552 210)"/>
+    <!-- stem -->
+    <line
+        x1="56"
+        y1="231"
+        x2="56"
+        y2="189"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <ellipse class="leaf"
-             cx="588" cy="195"
-             rx="16" ry="8"
-             fill="#16a34a"
-             transform="rotate(30 588 195)"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="49"
+        cy="207.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 49 207.9)"
+    />
 
-    <!-- Flower -->
-    <g class="flower" style="animation-delay:1.6s">
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="63"
+        cy="214.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 63 214.2)"
+    />
+</g>
 
-      <circle cx="570" cy="155" r="12"
-              fill="#f9a8d4"/>
 
-      <circle cx="558" cy="155" r="9"
-              fill="#f472b6"/>
+<g
+    class="plant"
+    style="animation-delay:0.16s">
 
-      <circle cx="582" cy="155" r="9"
-              fill="#f472b6"/>
+    <!-- stem -->
+    <line
+        x1="98"
+        y1="233"
+        x2="98"
+        y2="208"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-      <circle cx="570" cy="143" r="9"
-              fill="#f9a8d4"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="91"
+        cy="219.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 91 219.2)"
+    />
 
-      <circle cx="570" cy="167" r="9"
-              fill="#f9a8d4"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="105"
+        cy="223.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 105 223.0)"
+    />
+</g>
 
-      <circle cx="570" cy="155" r="6"
-              fill="#fbbf24"/>
+
+<g
+    class="plant"
+    style="animation-delay:0.24s">
+
+    <!-- stem -->
+    <line
+        x1="98"
+        y1="229"
+        x2="98"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="91"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 91 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="105"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 105 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.30s">
+
+    <!-- stem -->
+    <line
+        x1="119"
+        y1="227"
+        x2="119"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="112"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 112 203.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="126"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 126 210.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.33s">
+
+    <!-- stem -->
+    <line
+        x1="140"
+        y1="227"
+        x2="140"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="133"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 133 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="147"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 147 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.31s">
+
+    <!-- stem -->
+    <line
+        x1="161"
+        y1="229"
+        x2="161"
+        y2="187"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="154"
+        cy="205.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 154 205.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="168"
+        cy="212.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 168 212.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.39s">
+
+    <!-- stem -->
+    <line
+        x1="161"
+        y1="225"
+        x2="161"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="154"
+        cy="211.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 154 211.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="168"
+        cy="215.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 168 215.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.22s">
+
+    <!-- stem -->
+    <line
+        x1="182"
+        y1="235"
+        x2="182"
+        y2="173"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="175"
+        cy="200.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 175 200.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="189"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 189 210.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:0.92s">
+
+        <circle cx="177" cy="170" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="187" cy="170" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="182" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="182" cy="175" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="182" cy="170" r="3"
+                fill="#fbbf24"/>
 
     </g>
+</g>
 
-  </g>
 
-  <!-- Plant 5 -->
-  <g class="plant" style="animation-delay:1.1s">
+<g
+    class="plant"
+    style="animation-delay:0.36s">
 
-    <line x1="700" y1="240" x2="700" y2="180"
-          stroke="#16a34a"
-          stroke-width="5"
-          stroke-linecap="round"/>
+    <!-- stem -->
+    <line
+        x1="203"
+        y1="229"
+        x2="203"
+        y2="187"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <ellipse class="leaf"
-             cx="682" cy="215"
-             rx="16" ry="8"
-             fill="#4ade80"
-             transform="rotate(-30 682 215)"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="196"
+        cy="205.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 196 205.9)"
+    />
 
-    <ellipse class="leaf"
-             cx="718" cy="198"
-             rx="16" ry="8"
-             fill="#22c55e"
-             transform="rotate(30 718 198)"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="210"
+        cy="212.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 210 212.2)"
+    />
+</g>
 
-  </g>
 
-  <!-- Large Tree 2 -->
-  <g class="plant" style="animation-delay:1.3s">
+<g
+    class="plant"
+    style="animation-delay:0.40s">
 
-    <line x1="830" y1="240" x2="830" y2="125"
-          stroke="#166534"
-          stroke-width="8"
-          stroke-linecap="round"/>
+    <!-- stem -->
+    <line
+        x1="203"
+        y1="227"
+        x2="203"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-    <circle cx="830" cy="105" r="34"
-            fill="#16a34a"/>
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="196"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 196 203.9)"
+    />
 
-    <circle cx="800" cy="120" r="28"
-            fill="#22c55e"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="210"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 210 210.2)"
+    />
+</g>
 
-    <circle cx="860" cy="120" r="28"
-            fill="#15803d"/>
 
-    <circle cx="830" cy="135" r="30"
-            fill="#4ade80"/>
+<g
+    class="plant"
+    style="animation-delay:0.45s">
 
-  </g>
+    <!-- stem -->
+    <line
+        x1="245"
+        y1="227"
+        x2="245"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-  <!-- Small Flowers -->
-  <g class="flower" style="animation-delay:2s">
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="238"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 238 213.2)"
+    />
 
-    <circle cx="965" cy="190" r="9" fill="#a78bfa"/>
-    <circle cx="952" cy="190" r="7" fill="#c4b5fd"/>
-    <circle cx="978" cy="190" r="7" fill="#c4b5fd"/>
-    <circle cx="965" cy="177" r="7" fill="#a78bfa"/>
-    <circle cx="965" cy="203" r="7" fill="#a78bfa"/>
-    <circle cx="965" cy="190" r="4" fill="#fbbf24"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="252"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 252 217.0)"
+    />
+</g>
 
-  </g>
 
-  <line x1="965" y1="240" x2="965" y2="195"
+<g
+    class="plant"
+    style="animation-delay:0.45s">
+
+    <!-- stem -->
+    <line
+        x1="308"
+        y1="231"
+        x2="308"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="301"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 301 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="315"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 315 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.53s">
+
+    <!-- stem -->
+    <line
+        x1="308"
+        y1="227"
+        x2="308"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="301"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 301 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="315"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 315 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.56s">
+
+    <!-- stem -->
+    <line
+        x1="308"
+        y1="225"
+        x2="308"
+        y2="163"
         stroke="#22c55e"
-        stroke-width="4"/>
+        stroke-width="3"
+        stroke-linecap="round"
+    />
 
-  <!-- Small Sprouts -->
-  <g class="plant" style="animation-delay:1.5s">
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="301"
+        cy="190.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 301 190.9)"
+    />
 
-    <line x1="1040" y1="240" x2="1040" y2="215"
-          stroke="#22c55e"
-          stroke-width="3"/>
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="315"
+        cy="200.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 315 200.2)"
+    />
 
-    <ellipse class="leaf"
-             cx="1032" cy="220"
-             rx="9" ry="5"
-             fill="#4ade80"
-             transform="rotate(-25 1032 220)"/>
 
-    <ellipse class="leaf"
-             cx="1048" cy="215"
-             rx="9" ry="5"
-             fill="#22c55e"
-             transform="rotate(25 1048 215)"/>
+    <g
+        class="flower"
+        style="animation-delay:1.26s">
 
-  </g>
+        <circle cx="303" cy="160" r="4"
+                fill="#60a5fa"/>
 
-  <!-- Footer -->
-  <text x="55"
-        y="278"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="11"
-        fill="#94a3b8">
+        <circle cx="313" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="308" cy="155" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="308" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="308" cy="160" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.39s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="235"
+        x2="329"
+        y2="193"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="211.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 322 211.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="218.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 336 218.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.43s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="233"
+        x2="329"
+        y2="208"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="219.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 322 219.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="223.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 336 223.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.47s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="231"
+        x2="329"
+        y2="189"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="207.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 322 207.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="214.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 336 214.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.51s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="229"
+        x2="329"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 322 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 336 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.55s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="227"
+        x2="329"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 322 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 336 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.59s">
+
+    <!-- stem -->
+    <line
+        x1="329"
+        y1="225"
+        x2="329"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="322"
+        cy="211.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 322 211.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="336"
+        cy="215.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 336 215.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.52s">
+
+    <!-- stem -->
+    <line
+        x1="371"
+        y1="231"
+        x2="371"
+        y2="189"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="364"
+        cy="207.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 364 207.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="378"
+        cy="214.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 378 214.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.56s">
+
+    <!-- stem -->
+    <line
+        x1="371"
+        y1="229"
+        x2="371"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="364"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 364 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="378"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 378 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.60s">
+
+    <!-- stem -->
+    <line
+        x1="371"
+        y1="227"
+        x2="371"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="364"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 364 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="378"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 378 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.55s">
+
+    <!-- stem -->
+    <line
+        x1="392"
+        y1="231"
+        x2="392"
+        y2="189"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="385"
+        cy="207.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 385 207.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="399"
+        cy="214.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 399 214.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.59s">
+
+    <!-- stem -->
+    <line
+        x1="392"
+        y1="229"
+        x2="392"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="385"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 385 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="399"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 399 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.62s">
+
+    <!-- stem -->
+    <line
+        x1="392"
+        y1="227"
+        x2="392"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="385"
+        cy="192.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 385 192.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="399"
+        cy="202.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 399 202.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.32s">
+
+        <circle cx="387" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="397" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="392" cy="157" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="392" cy="167" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="392" cy="162" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.67s">
+
+    <!-- stem -->
+    <line
+        x1="392"
+        y1="225"
+        x2="392"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="385"
+        cy="201.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 385 201.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="399"
+        cy="208.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 399 208.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.56s">
+
+    <!-- stem -->
+    <line
+        x1="434"
+        y1="233"
+        x2="434"
+        y2="208"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="427"
+        cy="219.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 427 219.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="441"
+        cy="223.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 441 223.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.68s">
+
+    <!-- stem -->
+    <line
+        x1="434"
+        y1="227"
+        x2="434"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="427"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 427 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="441"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 441 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.72s">
+
+    <!-- stem -->
+    <line
+        x1="434"
+        y1="225"
+        x2="434"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="427"
+        cy="211.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 427 211.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="441"
+        cy="215.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 441 215.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.50s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="237"
+        x2="455"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 448 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 462 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.54s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="235"
+        x2="455"
+        y2="210"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="221.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 448 221.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="225.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 462 225.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.62s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="231"
+        x2="455"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 448 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 462 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.66s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="229"
+        x2="455"
+        y2="187"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="205.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 448 205.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="212.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 462 212.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.70s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="227"
+        x2="455"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 448 203.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 462 210.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.74s">
+
+    <!-- stem -->
+    <line
+        x1="455"
+        y1="225"
+        x2="455"
+        y2="163"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="448"
+        cy="190.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 448 190.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="462"
+        cy="200.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 462 200.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.44s">
+
+        <circle cx="450" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="460" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="455" cy="155" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="455" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="455" cy="160" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.69s">
+
+    <!-- stem -->
+    <line
+        x1="476"
+        y1="229"
+        x2="476"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="469"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 469 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="483"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 483 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.64s">
+
+    <!-- stem -->
+    <line
+        x1="539"
+        y1="235"
+        x2="539"
+        y2="210"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="532"
+        cy="221.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 532 221.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="546"
+        cy="225.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 546 225.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.76s">
+
+    <!-- stem -->
+    <line
+        x1="539"
+        y1="229"
+        x2="539"
+        y2="187"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="532"
+        cy="205.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 532 205.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="546"
+        cy="212.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 546 212.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.62s">
+
+    <!-- stem -->
+    <line
+        x1="560"
+        y1="237"
+        x2="560"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="553"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 553 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="567"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 567 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.70s">
+
+    <!-- stem -->
+    <line
+        x1="560"
+        y1="233"
+        x2="560"
+        y2="208"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="553"
+        cy="219.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 553 219.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="567"
+        cy="223.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 567 223.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.79s">
+
+    <!-- stem -->
+    <line
+        x1="560"
+        y1="229"
+        x2="560"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="553"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 553 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="567"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 567 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.92s">
+
+    <!-- stem -->
+    <line
+        x1="602"
+        y1="225"
+        x2="602"
+        y2="163"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="595"
+        cy="190.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 595 190.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="609"
+        cy="200.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 609 200.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.61s">
+
+        <circle cx="597" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="607" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="602" cy="155" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="602" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="602" cy="160" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.70s">
+
+    <!-- stem -->
+    <line
+        x1="623"
+        y1="237"
+        x2="623"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="616"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 616 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="630"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 630 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.82s">
+
+    <!-- stem -->
+    <line
+        x1="623"
+        y1="231"
+        x2="623"
+        y2="189"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="616"
+        cy="207.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 616 207.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="630"
+        cy="214.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 630 214.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.89s">
+
+    <!-- stem -->
+    <line
+        x1="644"
+        y1="229"
+        x2="644"
+        y2="187"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="637"
+        cy="205.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 637 205.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="651"
+        cy="212.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 651 212.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.93s">
+
+    <!-- stem -->
+    <line
+        x1="644"
+        y1="227"
+        x2="644"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="637"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 637 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="651"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 651 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.97s">
+
+    <!-- stem -->
+    <line
+        x1="644"
+        y1="225"
+        x2="644"
+        y2="163"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="637"
+        cy="190.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 637 190.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="651"
+        cy="200.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 651 200.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.67s">
+
+        <circle cx="639" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="649" cy="160" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="644" cy="155" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="644" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="644" cy="160" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.79s">
+
+    <!-- stem -->
+    <line
+        x1="665"
+        y1="235"
+        x2="665"
+        y2="173"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="658"
+        cy="200.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 658 200.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="672"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 672 210.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.49s">
+
+        <circle cx="660" cy="170" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="670" cy="170" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="165" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="175" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="170" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.87s">
+
+    <!-- stem -->
+    <line
+        x1="665"
+        y1="231"
+        x2="665"
+        y2="169"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="658"
+        cy="196.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 658 196.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="672"
+        cy="206.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 672 206.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.57s">
+
+        <circle cx="660" cy="166" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="670" cy="166" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="161" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="171" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="665" cy="166" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.82s">
+
+    <!-- stem -->
+    <line
+        x1="686"
+        y1="235"
+        x2="686"
+        y2="193"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="679"
+        cy="211.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 679 211.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="693"
+        cy="218.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 693 218.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.90s">
+
+    <!-- stem -->
+    <line
+        x1="686"
+        y1="231"
+        x2="686"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="679"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 679 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="693"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 693 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.80s">
+
+    <!-- stem -->
+    <line
+        x1="707"
+        y1="237"
+        x2="707"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="700"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 700 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="714"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 714 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.05s">
+
+    <!-- stem -->
+    <line
+        x1="749"
+        y1="227"
+        x2="749"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="742"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 742 203.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="756"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 756 210.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.92s">
+
+    <!-- stem -->
+    <line
+        x1="770"
+        y1="235"
+        x2="770"
+        y2="193"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="763"
+        cy="211.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 763 211.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="777"
+        cy="218.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 777 218.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.95s">
+
+    <!-- stem -->
+    <line
+        x1="770"
+        y1="233"
+        x2="770"
+        y2="191"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="763"
+        cy="209.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 763 209.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="777"
+        cy="216.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 777 216.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.04s">
+
+    <!-- stem -->
+    <line
+        x1="812"
+        y1="231"
+        x2="812"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="805"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 805 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="819"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 819 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.11s">
+
+    <!-- stem -->
+    <line
+        x1="833"
+        y1="229"
+        x2="833"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="826"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 826 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="840"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 840 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.98s">
+
+    <!-- stem -->
+    <line
+        x1="854"
+        y1="237"
+        x2="854"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="847"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 847 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="861"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 861 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.06s">
+
+    <!-- stem -->
+    <line
+        x1="854"
+        y1="233"
+        x2="854"
+        y2="191"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="847"
+        cy="209.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 847 209.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="861"
+        cy="216.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 861 216.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.14s">
+
+    <!-- stem -->
+    <line
+        x1="854"
+        y1="229"
+        x2="854"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="847"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 847 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="861"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 861 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.19s">
+
+    <!-- stem -->
+    <line
+        x1="896"
+        y1="229"
+        x2="896"
+        y2="204"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="889"
+        cy="215.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 889 215.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="903"
+        cy="219.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 903 219.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.23s">
+
+    <!-- stem -->
+    <line
+        x1="896"
+        y1="227"
+        x2="896"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="889"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 889 203.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="903"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 903 210.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.16s">
+
+    <!-- stem -->
+    <line
+        x1="938"
+        y1="233"
+        x2="938"
+        y2="191"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="931"
+        cy="209.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 931 209.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="945"
+        cy="216.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 945 216.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.18s">
+
+    <!-- stem -->
+    <line
+        x1="959"
+        y1="233"
+        x2="959"
+        y2="171"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="952"
+        cy="198.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 952 198.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="966"
+        cy="208.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 966 208.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.88s">
+
+        <circle cx="954" cy="168" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="964" cy="168" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="959" cy="163" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="959" cy="173" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="959" cy="168" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.32s">
+
+    <!-- stem -->
+    <line
+        x1="980"
+        y1="227"
+        x2="980"
+        y2="202"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="973"
+        cy="213.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 973 213.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="987"
+        cy="217.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 987 217.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.36s">
+
+    <!-- stem -->
+    <line
+        x1="980"
+        y1="225"
+        x2="980"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="973"
+        cy="211.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 973 211.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="987"
+        cy="215.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 987 215.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.32s">
+
+    <!-- stem -->
+    <line
+        x1="1043"
+        y1="231"
+        x2="1043"
+        y2="169"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1036"
+        cy="196.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 1036 196.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1050"
+        cy="206.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 1050 206.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:2.02s">
+
+        <circle cx="1038" cy="166" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1048" cy="166" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="161" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="171" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="166" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.36s">
+
+    <!-- stem -->
+    <line
+        x1="1043"
+        y1="229"
+        x2="1043"
+        y2="167"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1036"
+        cy="194.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 1036 194.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1050"
+        cy="204.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 1050 204.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:2.06s">
+
+        <circle cx="1038" cy="164" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1048" cy="164" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="159" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="169" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="164" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.40s">
+
+    <!-- stem -->
+    <line
+        x1="1043"
+        y1="227"
+        x2="1043"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1036"
+        cy="192.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 1036 192.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1050"
+        cy="202.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 1050 202.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:2.10s">
+
+        <circle cx="1038" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1048" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="157" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="167" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1043" cy="162" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.31s">
+
+    <!-- stem -->
+    <line
+        x1="1064"
+        y1="233"
+        x2="1064"
+        y2="191"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1057"
+        cy="209.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 1057 209.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1071"
+        cy="216.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 1071 216.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.35s">
+
+    <!-- stem -->
+    <line
+        x1="1064"
+        y1="231"
+        x2="1064"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1057"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 1057 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1071"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 1071 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.25s">
+
+    <!-- stem -->
+    <line
+        x1="1085"
+        y1="237"
+        x2="1085"
+        y2="212"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1078"
+        cy="223.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 1078 223.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1092"
+        cy="227.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 1092 227.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.33s">
+
+    <!-- stem -->
+    <line
+        x1="1085"
+        y1="233"
+        x2="1085"
+        y2="171"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1078"
+        cy="198.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 1078 198.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1092"
+        cy="208.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 1092 208.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:2.03s">
+
+        <circle cx="1080" cy="168" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1090" cy="168" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1085" cy="163" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1085" cy="173" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1085" cy="168" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.37s">
+
+    <!-- stem -->
+    <line
+        x1="1085"
+        y1="231"
+        x2="1085"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1078"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 1078 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1092"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 1092 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.45s">
+
+    <!-- stem -->
+    <line
+        x1="1085"
+        y1="227"
+        x2="1085"
+        y2="185"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1078"
+        cy="203.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 1078 203.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1092"
+        cy="210.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 1092 210.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.28s">
+
+    <!-- stem -->
+    <line
+        x1="1106"
+        y1="237"
+        x2="1106"
+        y2="195"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1099"
+        cy="213.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 1099 213.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1113"
+        cy="220.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 1113 220.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.38s">
+
+    <!-- stem -->
+    <line
+        x1="1127"
+        y1="233"
+        x2="1127"
+        y2="191"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1120"
+        cy="209.9"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(-25 1120 209.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1134"
+        cy="216.2"
+        rx="8"
+        ry="4"
+        fill="#4ade80"
+        transform="rotate(25 1134 216.2)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.42s">
+
+    <!-- stem -->
+    <line
+        x1="1127"
+        y1="231"
+        x2="1127"
+        y2="206"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1120"
+        cy="217.2"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(-25 1120 217.2)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1134"
+        cy="221.0"
+        rx="8"
+        ry="4"
+        fill="#86efac"
+        transform="rotate(25 1134 221.0)"
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.50s">
+
+    <!-- stem -->
+    <line
+        x1="1127"
+        y1="227"
+        x2="1127"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+    <!-- left leaf -->
+    <ellipse
+        class="leaf"
+        cx="1120"
+        cy="192.9"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(-25 1120 192.9)"
+    />
+
+    <!-- right leaf -->
+    <ellipse
+        class="leaf"
+        cx="1134"
+        cy="202.2"
+        rx="8"
+        ry="4"
+        fill="#22c55e"
+        transform="rotate(25 1134 202.2)"
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:2.20s">
+
+        <circle cx="1122" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1132" cy="162" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1127" cy="157" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1127" cy="167" r="4"
+                fill="#60a5fa"/>
+
+        <circle cx="1127" cy="162" r="3"
+                fill="#fbbf24"/>
+
+    </g>
+</g>
+
+<text
+    x="30"
+    y="255"
+    font-family="Arial, sans-serif"
+    font-size="10"
+    fill="#64748b">
+    GitHub activity
+</text>
+
+<rect
+    x="35"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="35"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="35"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="35"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="35"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="35"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="35"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="56"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="56"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="77"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="98"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="98"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="98"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="98"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="98"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="98"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="98"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="119"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="119"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="140"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="140"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="161"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="161"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="182"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="182"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="182"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="182"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="182"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="182"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="182"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="203"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="203"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="203"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="203"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="203"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="203"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="203"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="224"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="245"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="245"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="266"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="287"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="308"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="308"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="308"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="308"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="308"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="308"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="308"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="329"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="329"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="329"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="329"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="329"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="329"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="329"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="350"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="350"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="371"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="371"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="371"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="371"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="371"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="371"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="371"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="392"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="392"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="392"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="392"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="392"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="392"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="392"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="413"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="413"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="434"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="434"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="434"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="434"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="434"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="434"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="434"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="455"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="455"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="455"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="455"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="455"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="455"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="455"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="476"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="476"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="476"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="476"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="476"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="476"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="476"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="497"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="518"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="539"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="539"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="539"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="539"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="539"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="539"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="539"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="560"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="560"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="560"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="560"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="560"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="560"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="560"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="581"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="602"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="623"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="623"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="623"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="623"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="623"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="623"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="623"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="644"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="644"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="644"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="644"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="644"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="644"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="644"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="665"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="665"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="665"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="665"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="665"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="665"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="665"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="686"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="686"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="686"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="686"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="686"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="686"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="686"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="707"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="707"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="728"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="749"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="749"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="770"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="770"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="770"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="770"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="770"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="770"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="770"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="791"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="812"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="812"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="833"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="833"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="854"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="854"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="854"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="854"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="854"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="854"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="854"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="875"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="896"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="896"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="896"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="896"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="896"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="896"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="896"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="917"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="938"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="938"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="959"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="959"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="980"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="980"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="1001"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1001"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1022"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1043"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1043"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1043"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1043"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="1043"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="1043"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="1043"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1064"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1064"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1064"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="1064"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="1064"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1064"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1064"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1085"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="1085"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1085"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+<rect
+    x="1085"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="1085"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1085"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="1085"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="1106"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1106"
+    y="283.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1127"
+    y="265.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1127"
+    y="268.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1127"
+    y="271.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#86efac"
+/>
+
+<rect
+    x="1127"
+    y="274.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#dcfce7"
+/>
+
+<rect
+    x="1127"
+    y="277.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#f1f5f9"
+/>
+
+<rect
+    x="1127"
+    y="280.0"
+    width="16"
+    height="16"
+    rx="3"
+    fill="#22c55e"
+/>
+
+
+<text
+    x="30"
+    y="295"
+    font-family="Arial, sans-serif"
+    font-size="10"
+    fill="#94a3b8">
+    259 contributions
+</text>
+
+<text
+    x="1153"
+    y="295"
+    text-anchor="end"
+    font-family="Arial, sans-serif"
+    font-size="10"
+    fill="#94a3b8">
     github.com/shreyam91
-  </text>
-
-  <text x="1145"
-        y="278"
-        text-anchor="end"
-        font-family="Arial, Helvetica, sans-serif"
-        font-size="11"
-        fill="#94a3b8">
-    Keep growing 🌱
-  </text>
+</text>
 
 </svg>
