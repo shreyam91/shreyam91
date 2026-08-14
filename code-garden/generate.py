@@ -1,4 +1,3 @@
-```python
 import json
 import os
 import urllib.request
@@ -363,4 +362,3 @@ with open(
     file.write(svg)
 
 print(f"🌱 Code Garden generated: {total} contributions")
-```
