@@ -28,7 +28,7 @@ alt="Typing animation"
   <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" />
 </a>
 
-<a href="https://portfolio-shreyam91s-projects.vercel.app/">
+<a href="https://www.shreyam.online/">
   <img src="https://img.shields.io/badge/Portfolio-374151?style=flat-square&logo=vercel&logoColor=white" />
 </a>
 
@@ -64,7 +64,7 @@ I'm continuously learning, experimenting and improving my development skills.
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+<div align="">
 
 ### Languages
 
@@ -74,7 +74,7 @@ I'm continuously learning, experimenting and improving my development skills.
 
 ### Frontend
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,bootstrap" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind" />
 
 <br/>
 
@@ -86,7 +86,7 @@ I'm continuously learning, experimenting and improving my development skills.
 
 ### Database · Tools · DevOps
 
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,firebase,git,github,docker,postman,aws" />
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,git,github,docker,postman,aws" />
 
 </div>
 
@@ -306,12 +306,12 @@ A real-time tracking application focused on live updates and interactive functio
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=spring,docker,aws" />
+<img src="https://skillicons.dev/icons?i=spring,docker,aws, claude, chatgpt, github-copilot" />
 
 <br/>
 <br/>
 
-### Spring Boot → Microservices → System Design → Cloud
+### Spring Boot → Microservices → System Design → Cloud → AI 
 
 </div>
 
@@ -359,21 +359,6 @@ Reliable Systems
 <div align="center">
 
 <img
-height="170"
-src="https://github-readme-stats.vercel.app/api?username=shreyam91&show_icons=true&hide_border=true&theme=default&rank_icon=github"
-alt="Shreyam's GitHub Stats"
-/>
-
-<img
-height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyam91&layout=compact&hide_border=true&theme=default"
-alt="Top Languages"
-/>
-
-<br/>
-<br/>
-
-<img
 src="https://streak-stats.demolab.com?user=shreyam91&theme=default&hide_border=true"
 alt="GitHub Streak"
 />
@@ -388,16 +373,6 @@ alt="GitHub Streak"
 
 <!-- ========================================================= -->
 
-## 🏆 Achievements
-
-<div align="center">
-
-<img
-src="https://github-profile-trophy.vercel.app/?username=shreyam91&theme=flat&no-frame=true&no-bg=true&margin-w=8"
-alt="GitHub Trophies"
-/>
-
-</div>
 
 ---
 
@@ -425,7 +400,7 @@ alt="GitHub Trophies"
   />
 </a>
 
-<a href="https://portfolio-shreyam91s-projects.vercel.app/">
+<a href="https://www.shreyam.online/">
   <img
     src="https://img.shields.io/badge/Portfolio-374151?style=for-the-badge&logo=vercel&logoColor=white"
     alt="Portfolio"
