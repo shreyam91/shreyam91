@@ -306,7 +306,7 @@ A real-time tracking application focused on live updates and interactive functio
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=spring,docker,aws, claude, chatgpt, github-copilot" />
+<img src="https://skillicons.dev/icons?i=spring,docker,aws,go" />
 
 <br/>
 <br/>
