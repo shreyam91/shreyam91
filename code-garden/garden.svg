@@ -5427,8 +5427,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="978"
         y1="225"
         x2="978"
-        y2="165"
-        stroke="#22c55e"
+        y2="143"
+        stroke="#15803d"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -5439,15 +5439,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="971"
-        cy="193.8"
+        cy="182.4"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#15803d"
         transform="
             rotate(
                 -25
                 971
-                193.8
+                182.4
             )
         "
     />
@@ -5458,15 +5458,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="985"
-        cy="204.0"
+        cy="196.3"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#15803d"
         transform="
             rotate(
                 25
                 985
-                204.0
+                196.3
             )
         "
     />
@@ -5478,35 +5478,35 @@ aria-label="Shreyam's GitHub Code Garden">
 
         <circle
             cx="973"
-            cy="160"
+            cy="138"
             r="4"
-            fill="#60a5fa"
+            fill="#a78bfa"
         />
 
         <circle
             cx="983"
-            cy="160"
+            cy="138"
             r="4"
-            fill="#60a5fa"
+            fill="#a78bfa"
         />
 
         <circle
             cx="978"
-            cy="155"
+            cy="133"
             r="4"
-            fill="#60a5fa"
+            fill="#a78bfa"
         />
 
         <circle
             cx="978"
-            cy="165"
+            cy="143"
             r="4"
-            fill="#60a5fa"
+            fill="#a78bfa"
         />
 
         <circle
             cx="978"
-            cy="160"
+            cy="138"
             r="3"
             fill="#fbbf24"
         />
@@ -9228,7 +9228,17 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#22c55e"
+    fill="#15803d"
+/>
+
+
+<rect
+    x="978"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
 />
 
 
@@ -9316,7 +9326,7 @@ aria-label="Shreyam's GitHub Code Garden">
     font-size="10"
     fill="#64748b">
 
-    259 contributions
+    263 contributions
 
 </text>
 
