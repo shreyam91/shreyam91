@@ -26,22 +26,23 @@ What I Enjoy Building
 I don't just want to build software that works — I want to understand why it works and how to make it better.
 
 🧰 Tech Arsenal
-<div align="center">
+<div align="left">
 🤖 AI / GenAI
-<img src="https://skillicons.dev/icons?i=python" /> <br/> <br/>
+<!-- <img src="https://skillicons.dev/icons?i=python" /> <br/> <br/> -->
 
 LLMs   Generative AI   RAG   AI Agents
 
 Prompt Engineering   Embeddings   Vector Search   AI APIs
 
-<br/> <br/>
-💻 Languages
+<br/> 
+<!-- <br/> -->
+
 <img src="https://skillicons.dev/icons?i=java,python,javascript,typescript,html,css" /> <br/> <br/>
-🎨 Frontend
+
 <img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind" /> <br/> <br/>
-⚙️ Backend
+
 <img src="https://skillicons.dev/icons?i=spring,nodejs,express" /> <br/> <br/>
-🗄️ Data · DevOps · Tools
+
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,git,github,docker,postman,aws" /> </div>
 🧠 What I'm Working On
 <div align="center"> <table> <tr> <td width="33%" align="center">
@@ -69,8 +70,56 @@ System Design
 Cloud
 
 </td> </tr> </table> </div>
+
 🚀 Featured Projects
-<div align="center"> <table> <tr> <td width="50%" valign="top"> <h3>🧠 Algo Visualizer</h3> <p> An interactive algorithm visualization project designed to make data structures and algorithms easier to understand through visual demonstrations. </p> <p> <b>Stack:</b><br/> <code>Java</code> </p> <a href="https://github.com/shreyam91/Algo-Visualizer"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> <td width="50%" valign="top"> <h3>📝 TaskScribe</h3> <p> A productivity-focused application exploring modern full-stack development with an emphasis on intelligent and user-friendly experiences. </p> <p> <b>Stack:</b><br/> <code>React</code> <code>TypeScript</code> <code>AI</code> </p> <a href="https://github.com/shreyam91/TaskScribe"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> </tr> <tr> <td width="50%" valign="top"> <h3>🌐 Developer Portfolio</h3> <p> Personal portfolio showcasing projects, technical skills, experiments and my journey as a developer. </p> <p> <b>Stack:</b><br/> <code>TypeScript</code> </p> <a href="https://github.com/shreyam91/portfolio"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> <td width="50%" valign="top"> <h3>📍 Realtime Tracker</h3> <p> A real-time tracking application focused on live updates, interactive functionality and responsive user experiences. </p> <p> <b>Stack:</b><br/> <code>JavaScript</code> </p> <a href="https://github.com/shreyam91/Realtime-Tracker"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> </tr> </table> </div>
+<div align="center"> <table> <tr> <td width="50%" valign="top"> <h3>🧠 OpsMind</h3> <p> An AI-powered, secure internal knowledge retrieval system designed for enterprise organizations. It enables authorized users to ask natural language questions and receive grounded, accurate answers from internal documents while strictly enforcing Role-Based Access Control (RBAC). </p> <p> <b>Stack:</b><br/> <code>AI</code> <code>RBAC</code> <code>Full Stack</code> </p> <a href="https://github.com/shreyam91/OpsMind"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td>
+  <td width="50%" valign="top">
+    <h3>📝 Dev Desk</h3>
+    <p>
+      A modern, full-stack task management system designed to help teams seamlessly create, track, and collaborate on projects, featuring a premium glassmorphic interface and robust API backend.
+    </p>
+    <p>
+      <b>Stack:</b><br/>
+      <code>React</code> <code>Tailwind CSS</code> <code>Radix UI</code> <code>JWT</code>
+    </p>
+    <a href="https://github.com/shreyam91/DevDesk">
+      <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/>
+    </a>
+  </td>
+</tr>
+
+<tr>
+  <td width="50%" valign="top">
+    <h3>📊 DevBoard</h3>
+    <p>
+      A platform for analyzing and visualizing GitHub repositories, built with a monorepo architecture featuring a modern web frontend, asynchronous background workers, and shared AI and database logic for deep architectural insights and repository health metrics.
+    </p>
+    <p>
+      <b>Stack:</b><br/>
+      <code>Next.js</code> <code>React</code> <code>Node.js</code> <code>BullMQ</code> <code>Prisma</code> <code>OpenAI</code>
+    </p>
+    <a href="https://github.com/shreyam91/DevBoard">
+      <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/>
+    </a>
+  </td>
+
+  <td width="50%" valign="top">
+    <h3>💼 JobPulse</h3>
+    <p>
+      An AI-powered job prioritization platform that automatically scrapes job listings, analyzes opportunities with AI, and prioritizes relevant roles based on a user's profile and preferences.
+    </p>
+    <p>
+      <b>Stack:</b><br/>
+      <code>AI</code> <code>Web Scraping</code> <code>Full Stack</code>
+    </p>
+    <a href="https://github.com/shreyam91/Job-Pulse">
+      <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/>
+    </a>
+  </td>
+</tr>
+
+</table> </div>
+
 🌱 Code Garden
 <div align="center">
 
