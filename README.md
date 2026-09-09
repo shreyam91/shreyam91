@@ -1,433 +1,182 @@
-<!-- ========================================================= -->
-
-<!--                        HERO                               -->
-
-<!-- ========================================================= -->
-
 <div align="center">
 
-<img
-src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:ffffff,100:eaf3ff&section=header&text=Shreyam%20Kanaujiya&fontSize=42&fontColor=111827&animation=fadeIn&fontAlignY=38"
-width="100%"
-/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:EEF4FF,50:E8F0FE,100:DCEAFF&section=header&text=Shreyam%20Kanaujiya&fontSize=44&fontColor=111827&animation=fadeIn&fontAlignY=38" width="100%" />
 
-<h3>Full Stack Developer · Java · Spring Boot · React</h3>
+<h2>AI & Full Stack Developer</h2> <p> <b>Building intelligent products with AI, modern web technologies & scalable backend systems.</b> </p> <br/>
 
-<img
-src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3000&pause=900&color=2563EB&center=true&vCenter=true&width=650&lines=Building+clean+and+scalable+applications;Turning+ideas+into+real+products;Learning+%E2%80%A2+Building+%E2%80%A2+Improving"
-alt="Typing animation"
-/>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3000&pause=1000&color=2563EB&center=true&vCenter=true&width=720&lines=AI-Powered+Applications;Full+Stack+Development;Java+%7C+Spring+Boot+%7C+React;LLMs+%7C+RAG+%7C+AI+Agents;Building+%E2%80%A2+Learning+%E2%80%A2+Shipping" alt="Typing animation" />
 
-<br/>
+<br/> <br/> <a href="https://github.com/shreyam91"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"/> </a> &nbsp; <a href="https://www.linkedin.com/in/shreyam-kanaujiya/"> <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"/> </a> &nbsp; <a href="https://www.shreyam.online/"> <img src="https://img.shields.io/badge/Portfolio-374151?style=for-the-badge&logo=vercel&logoColor=white"/> </a> <br/> </div>
+👨‍💻 About Me
 
-<a href="https://github.com/shreyam91">
-  <img src="https://img.shields.io/badge/GitHub-111827?style=flat-square&logo=github&logoColor=white" />
-</a>
+I'm an AI & Full Stack Developer interested in building software that is both intelligent and production-ready.
 
-<a href="https://www.linkedin.com/in/shreyam-kanaujiya/">
-  <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=flat-square&logo=linkedin&logoColor=white" />
-</a>
+I enjoy working across the entire development lifecycle — from designing backend systems and APIs to creating modern interfaces and integrating AI capabilities.
 
-<a href="https://www.shreyam.online/">
-  <img src="https://img.shields.io/badge/Portfolio-374151?style=flat-square&logo=vercel&logoColor=white" />
-</a>
+What I Enjoy Building
+🤖 AI-powered applications
+🧠 LLM & Generative AI features
+🔎 RAG and intelligent search systems
+⚡ Modern full-stack applications
+☕ Java & Spring Boot backends
+⚛️ React & TypeScript interfaces
+🏗️ Scalable APIs and microservices
+☁️ Cloud-ready applications
 
-</div>
+I don't just want to build software that works — I want to understand why it works and how to make it better.
 
-<br/>
+🧰 Tech Arsenal
+<div align="center">
+🤖 AI / GenAI
+<img src="https://skillicons.dev/icons?i=python" /> <br/> <br/>
 
----
+LLMs   Generative AI   RAG   AI Agents
 
-<!-- ========================================================= -->
+Prompt Engineering   Embeddings   Vector Search   AI APIs
 
-<!--                        ABOUT                              -->
+<br/> <br/>
+💻 Languages
+<img src="https://skillicons.dev/icons?i=java,python,javascript,typescript,html,css" /> <br/> <br/>
+🎨 Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind" /> <br/> <br/>
+⚙️ Backend
+<img src="https://skillicons.dev/icons?i=spring,nodejs,express" /> <br/> <br/>
+🗄️ Data · DevOps · Tools
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,git,github,docker,postman,aws" /> </div>
+🧠 What I'm Working On
+<div align="center"> <table> <tr> <td width="33%" align="center">
+🤖 AI
 
-<!-- ========================================================= -->
+LLMs
+RAG
+AI Agents
+AI APIs
 
-## 👋 About Me
+</td> <td width="33%" align="center">
+⚡ Full Stack
 
-I'm a **Full Stack Developer** who enjoys building practical, scalable and user-focused applications.
+React
+TypeScript
+Spring Boot
+REST APIs
 
-My main interests are **Java, Spring Boot, React, Microservices and problem solving**. I enjoy understanding how things work under the hood and turning that knowledge into real-world projects.
+</td> <td width="33%" align="center">
+🏗️ Engineering
 
-I'm continuously learning, experimenting and improving my development skills.
+DSA
+Microservices
+System Design
+Cloud
 
-> **Build something useful. Learn something new. Improve every day.**
-
----
-
-<!-- ========================================================= -->
-
-<!--                      TECH STACK                           -->
-
-<!-- ========================================================= -->
-
-## 🛠️ Tech Stack
-
-<div align="">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=java,javascript,typescript,html,css" />
-
-<br/>
-
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind" />
-
-<br/>
-
-### Backend
-
-<img src="https://skillicons.dev/icons?i=spring,nodejs,express" />
-
-<br/>
-
-### Database · Tools · DevOps
-
-<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgresql,git,github,docker,postman,aws" />
-
-</div>
-
----
-
-<!-- ========================================================= -->
-
-<!--                     CURRENT FOCUS                         -->
-
-<!-- ========================================================= -->
-
-## 🟢 Current Focus
-
+</td> </tr> </table> </div>
+🚀 Featured Projects
+<div align="center"> <table> <tr> <td width="50%" valign="top"> <h3>🧠 Algo Visualizer</h3> <p> An interactive algorithm visualization project designed to make data structures and algorithms easier to understand through visual demonstrations. </p> <p> <b>Stack:</b><br/> <code>Java</code> </p> <a href="https://github.com/shreyam91/Algo-Visualizer"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> <td width="50%" valign="top"> <h3>📝 TaskScribe</h3> <p> A productivity-focused application exploring modern full-stack development with an emphasis on intelligent and user-friendly experiences. </p> <p> <b>Stack:</b><br/> <code>React</code> <code>TypeScript</code> <code>AI</code> </p> <a href="https://github.com/shreyam91/TaskScribe"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> </tr> <tr> <td width="50%" valign="top"> <h3>🌐 Developer Portfolio</h3> <p> Personal portfolio showcasing projects, technical skills, experiments and my journey as a developer. </p> <p> <b>Stack:</b><br/> <code>TypeScript</code> </p> <a href="https://github.com/shreyam91/portfolio"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> <td width="50%" valign="top"> <h3>📍 Realtime Tracker</h3> <p> A real-time tracking application focused on live updates, interactive functionality and responsive user experiences. </p> <p> <b>Stack:</b><br/> <code>JavaScript</code> </p> <a href="https://github.com/shreyam91/Realtime-Tracker"> <img src="https://img.shields.io/badge/Explore%20Repository-2563EB?style=flat-square&logo=github&logoColor=white"/> </a> </td> </tr> </table> </div>
+🌱 Code Garden
 <div align="center">
 
-```text
-┌────────────────────────────────────────────────────┐
-│                                                    │
-│                 CURRENTLY BUILDING                 │
-│                                                    │
-│                    TaskScribe                      │
-│                                                    │
-│       Full-stack development & clean UX            │
-│                                                    │
-│       Java · Spring Boot · React · TypeScript      │
-│                                                    │
-└────────────────────────────────────────────────────┘
-```
-
-</div>
-
-Currently focusing on:
-
-* 🚀 Building better full-stack applications
-* ☕ Improving Java & Spring Boot
-* 🧩 Understanding Microservices architecture
-* 🏗️ Writing maintainable and scalable code
-* 🧠 Strengthening DSA and problem-solving
-* ☁️ Exploring cloud and deployment concepts
-
----
-
-<!-- ========================================================= -->
-
-<!--                    CODE GARDEN                            -->
-
-<!-- ========================================================= -->
-
-## ⚡ Coding Activity
-
-### 🌱 My Code Garden
-
-<p align="center">
-
-<img
-src="https://raw.githubusercontent.com/shreyam91/shreyam91/main/code-garden/garden.svg"
-width="100%"
-alt="Shreyam's GitHub Code Garden"
-/>
-
-</p>
-
-<p align="center">
-  <sub>Growing one contribution at a time.</sub>
-</p>
-
----
-
-<!-- ========================================================= -->
-
-<!--                    PROBLEM SOLVING                        -->
-
-<!-- ========================================================= -->
-
-## 🧠 Problem Solving / DSA
-
-<div align="center">
-
-<img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=700&color=374151&center=true&vCenter=true&width=600&lines=Data+Structures;Algorithms;Problem+Solving;Optimization;System+Design"
-alt="DSA animation"
-/>
-
-</div>
-
-I'm continuously working on:
-
-`Arrays` · `Strings` · `Linked Lists` · `Stacks` · `Queues`
-
-`Trees` · `Graphs` · `Recursion` · `Dynamic Programming`
-
-### My approach
-
-```text
-             ┌──────────────┐
-             │    Problem   │
-             └──────┬───────┘
-                    ↓
-             ┌──────────────┐
-             │  Understand  │
-             └──────┬───────┘
-                    ↓
-             ┌──────────────┐
-             │  Break Down  │
-             └──────┬───────┘
-                    ↓
-             ┌──────────────┐
-             │  Implement   │
-             └──────┬───────┘
-                    ↓
-             ┌──────────────┐
-             │   Optimize   │
-             └──────┬───────┘
-                    ↓
-             ┌──────────────┐
-             │    Learn     │
-             └──────────────┘
-```
-
----
-
-<!-- ========================================================= -->
-
-<!--                    FEATURED PROJECTS                       -->
-
-<!-- ========================================================= -->
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-<table>
-<tr>
-
-<td width="50%" valign="top">
-
-### 🔹 Algo Visualizer
-
-Interactive algorithm visualization designed to make algorithms easier to understand through visual demonstrations.
-
-**Tech:** `Java`
+<img src="https://raw.githubusercontent.com/shreyam91/shreyam91/main/code-garden/garden.svg" width="95%" alt="Shreyam's GitHub Code Garden" />
 
 <br/>
 
-<a href="https://github.com/shreyam91/Algo-Visualizer">
-  <img src="https://img.shields.io/badge/View%20Project-2563EB?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🔹 TaskScribe
-
-A productivity-focused application currently under development.
-
-**Tech:** `React` · `TypeScript`
-
-<br/>
-
-<a href="https://github.com/shreyam91/TaskScribe">
-  <img src="https://img.shields.io/badge/View%20Project-2563EB?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### 🔹 Portfolio
-
-Personal developer portfolio showcasing projects, skills and experience.
-
-**Tech:** `TypeScript`
-
-<br/>
-
-<a href="https://github.com/shreyam91/portfolio">
-  <img src="https://img.shields.io/badge/View%20Project-2563EB?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-<td width="50%" valign="top">
-
-### 🔹 Realtime Tracker
-
-A real-time tracking application focused on live updates and interactive functionality.
-
-**Tech:** `JavaScript`
-
-<br/>
-
-<a href="https://github.com/shreyam91/Realtime-Tracker">
-  <img src="https://img.shields.io/badge/View%20Project-2563EB?style=flat-square&logo=github&logoColor=white" />
-</a>
-
-</td>
-
-</tr>
-</table>
+<sub>Every contribution is another step forward.</sub>
 
 </div>
-
----
-
-<!-- ========================================================= -->
-
-<!--                    CURRENTLY LEARNING                     -->
-
-<!-- ========================================================= -->
-
-## 📚 Currently Learning
-
+🧩 Problem Solving
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=spring,docker,aws,go" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=2500&pause=800&color=374151&center=true&vCenter=true&width=650&lines=Data+Structures;Algorithms;Optimization;Problem+Solving;System+Design" alt="Problem solving animation" />
 
-<br/>
-<br/>
+<br/> <br/>
 
-### Spring Boot → Microservices → System Design → Cloud → AI 
+Arrays · Strings · Linked Lists · Stacks · Queues
+
+Trees · Graphs · Recursion · Dynamic Programming
 
 </div>
+🔄 My Engineering Loop
+<div align="center"> <table> <tr> <td align="center">
+01
+🔍 PROBLEM
+</td> <td align="center">→</td> <td align="center">
+02
+🧠 UNDERSTAND
+</td> <td align="center">→</td> <td align="center">
+03
+📐 DESIGN
+</td> </tr> <tr> <td align="center">
+04
+🛠️ BUILD
+</td> <td align="center">→</td> <td align="center">
+05
+🧪 TEST
+</td> <td align="center">→</td> <td align="center">
+06
+⚡ OPTIMIZE
+</td> </tr> </table>
+↓
+📚 LEARN
+</div>
+🤖 AI → Software
+<div align="center"> <table> <tr> <td align="center">
+💡 01
+IDEA
+</td> <td align="center">→</td> <td align="center">
+⚡ 02
+FULL STACK APP
+</td> <td align="center">→</td> <td align="center">
+🧠 03
+AI / LLM
+</td> </tr> <tr> <td align="center">
+🔎 04
+RAG · TOOLS · APIs
+</td> <td align="center">→</td> <td align="center">
+✨ 05
+INTELLIGENT PRODUCT
+</td> <td align="center">→</td> <td align="center">
+🚀 06
+PRODUCTION
+</td> </tr> </table> </div> <p align="center"> <sub> Building AI as part of complete software systems — not just isolated features. </sub> </p>
+📚 Learning Roadmap
+<div align="center"> <table> <tr> <td align="center"> <b>🤖 AI / GenAI</b><br/> LLMs · RAG · Agents </td> <td align="center">→</td> <td align="center"> <b>⚡ Full Stack</b><br/> React · Spring Boot </td> <td align="center">→</td> <td align="center"> <b>🏗️ Architecture</b><br/> Microservices · System Design </td> <td align="center">→</td> <td align="center"> <b>☁️ Cloud</b><br/> DevOps · Production </td> </tr> </table> </div>
+🎯 2026 Goals
+<div align="center"> <table> <tr> <td width="50%" valign="top">
 
-I'm interested in understanding how applications move from:
+◉ 🤖 Build production-ready AI applications
 
-```text
-Local Development
-        ↓
-Production
-        ↓
-Scalable Architecture
-        ↓
-Reliable Systems
-```
+◉ 🧠 Go deeper into LLMs, RAG & AI Agents
 
----
+◉ 🚀 Ship more full-stack products
 
-<!-- ========================================================= -->
+◉ ☕ Master Spring Boot & Microservices
 
-<!--                         GOALS                             -->
+◉ 🏗️ Strengthen System Design fundamentals
 
-<!-- ========================================================= -->
+</td> <td width="50%" valign="top">
 
-## 🎯 2026 Goals
+◉ 🧩 Improve DSA & problem-solving
 
-* [ ] 🚀 Build production-ready full-stack applications
-* [ ] ☕ Deepen Spring Boot & Microservices knowledge
-* [ ] 🧠 Become stronger at DSA and problem solving
-* [ ] 🏗️ Learn System Design fundamentals
-* [ ] ☁️ Explore Cloud & DevOps
-* [ ] 🌎 Contribute to open-source projects
-* [ ] 💻 Ship more real-world projects
-* [ ] 📖 Keep learning consistently
+◉ ☁️ Build stronger Cloud & DevOps skills
 
----
+◉ 🌎 Make meaningful open-source contributions
 
-<!-- ========================================================= -->
+◉ 📦 Take more projects from idea → production
 
-<!--                      GITHUB STATS                         -->
-
-<!-- ========================================================= -->
-
-## 📊 GitHub Stats
-
+</td> </tr> </table> </div>
+📊 GitHub Stats
 <div align="center">
 
-<img
-src="https://streak-stats.demolab.com?user=shreyam91&theme=default&hide_border=true"
-alt="GitHub Streak"
-/>
+<img src="https://streak-stats.demolab.com?user=shreyam91&theme=default&hide_border=true" alt="GitHub Streak" />
 
 </div>
+🌐 Let's Connect
+<div align="center"> <a href="https://github.com/shreyam91"> <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /> </a> &nbsp; <a href="https://www.linkedin.com/in/shreyam-kanaujiya/"> <img src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /> </a> &nbsp; <a href="https://www.shreyam.online/"> <img src="https://img.shields.io/badge/Portfolio-374151?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /> </a> </div> <br/> <div align="center">
 
----
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:ffffff,50:E8F0FE,100:DCEAFF&section=footer" width="100%" />
 
-<!-- ========================================================= -->
+<h3>Build. Learn. Ship. Repeat. 🚀</h3>
 
-<!--                     ACHIEVEMENTS                          -->
+<sub>Turning ideas into intelligent software — one project at a time.</sub>
 
-<!-- ========================================================= -->
+<br/><br/>
 
-
----
-
-<!-- ========================================================= -->
-
-<!--                       CONNECT                             -->
-
-<!-- ========================================================= -->
-
-## 🌐 Connect With Me
-
-<div align="center">
-
-<a href="https://github.com/shreyam91">
-  <img
-    src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
-  />
-</a>
-
-<a href="https://www.linkedin.com/in/shreyam-kanaujiya/">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-2563EB?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
-</a>
-
-<a href="https://www.shreyam.online/">
-  <img
-    src="https://img.shields.io/badge/Portfolio-374151?style=for-the-badge&logo=vercel&logoColor=white"
-    alt="Portfolio"
-  />
-</a>
-
-</div>
-
----
-
-<!-- ========================================================= -->
-
-<!--                         FOOTER                            -->
-
-<!-- ========================================================= -->
-
-<div align="center">
-
-<img
-src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:ffffff,100:eaf3ff&section=footer"
-width="100%"
-/>
-
-### Thanks for visiting 👋
-
-**Build · Learn · Improve**
-
-<sub>Made with curiosity and a lot of ☕</sub>
-
-</div>
+<img src="https://img.shields.io/badge/Made%20with-☕%20%26%20Curiosity-2563EB?style=flat-square" /> </div>
