@@ -169,14 +169,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.21s">
+    style="animation-delay:0.20s">
 
     <!-- STEM -->
 
     <line
-        x1="96"
+        x1="78"
         y1="225"
-        x2="96"
+        x2="78"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -188,7 +188,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="89"
+        cx="71"
         cy="203.2"
         rx="9"
         ry="4.5"
@@ -196,7 +196,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                89
+                71
                 203.2
             )
         "
@@ -207,7 +207,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="103"
+        cx="85"
         cy="210.3"
         rx="9"
         ry="4.5"
@@ -215,8 +215,120 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                103
+                85
                 210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.24s">
+
+    <!-- STEM -->
+
+    <line
+        x1="78"
+        y1="225"
+        x2="78"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="71"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                71
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="85"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                85
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.27s">
+
+    <!-- STEM -->
+
+    <line
+        x1="114"
+        y1="225"
+        x2="114"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="107"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                107
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="121"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                121
+                216.2
             )
         "
     />
@@ -230,9 +342,9 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="96"
+        x1="168"
         y1="225"
-        x2="96"
+        x2="168"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -244,7 +356,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="89"
+        cx="161"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -252,7 +364,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                89
+                161
                 212.0
             )
         "
@@ -263,7 +375,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="103"
+        cx="175"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -271,7 +383,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                103
+                175
                 216.2
             )
         "
@@ -281,14 +393,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.29s">
+    style="animation-delay:0.33s">
 
     <!-- STEM -->
 
     <line
-        x1="132"
+        x1="168"
         y1="225"
-        x2="132"
+        x2="168"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -300,7 +412,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="125"
+        cx="161"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -308,7 +420,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                125
+                161
                 212.0
             )
         "
@@ -319,7 +431,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="139"
+        cx="175"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -327,7 +439,217 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                139
+                175
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.37s">
+
+    <!-- STEM -->
+
+    <line
+        x1="168"
+        y1="225"
+        x2="168"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="161"
+        cy="193.8"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                -25
+                161
+                193.8
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="175"
+        cy="204.0"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                25
+                175
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:0.97s">
+
+        <circle
+            cx="163"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="173"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="168"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="168"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="168"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.18s">
+
+    <!-- STEM -->
+
+    <line
+        x1="186"
+        y1="225"
+        x2="186"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="179"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                179
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="193"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                193
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.22s">
+
+    <!-- STEM -->
+
+    <line
+        x1="186"
+        y1="225"
+        x2="186"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="179"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                179
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="193"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                193
                 216.2
             )
         "
@@ -345,6 +667,62 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="186"
         y1="225"
         x2="186"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="179"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                179
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="193"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                193
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.30s">
+
+    <!-- STEM -->
+
+    <line
+        x1="186"
+        y1="225"
+        x2="186"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -457,160 +835,6 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="186"
         y1="225"
         x2="186"
-        y2="165"
-        stroke="#22c55e"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="179"
-        cy="193.8"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                -25
-                179
-                193.8
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="193"
-        cy="204.0"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                25
-                193
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:0.98s">
-
-        <circle
-            cx="181"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="191"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="186"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="186"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="186"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.20s">
-
-    <!-- STEM -->
-
-    <line
-        x1="204"
-        y1="225"
-        x2="204"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="197"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                197
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="211"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                211
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.24s">
-
-    <!-- STEM -->
-
-    <line
-        x1="204"
-        y1="225"
-        x2="204"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -622,7 +846,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="197"
+        cx="179"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -630,7 +854,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                197
+                179
                 212.0
             )
         "
@@ -641,7 +865,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="211"
+        cx="193"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -649,7 +873,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                211
+                193
                 216.2
             )
         "
@@ -659,16 +883,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.28s">
+    style="animation-delay:0.30s">
 
     <!-- STEM -->
 
     <line
-        x1="204"
+        x1="222"
         y1="225"
-        x2="204"
-        y2="183"
-        stroke="#4ade80"
+        x2="222"
+        y2="200"
+        stroke="#86efac"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -678,16 +902,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="197"
-        cy="203.2"
+        cx="215"
+        cy="212.0"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#86efac"
         transform="
             rotate(
                 -25
-                197
-                203.2
+                215
+                212.0
             )
         "
     />
@@ -697,16 +921,72 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="211"
-        cy="210.3"
+        cx="229"
+        cy="216.2"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#86efac"
         transform="
             rotate(
                 25
-                211
-                210.3
+                229
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.38s">
+
+    <!-- STEM -->
+
+    <line
+        x1="222"
+        y1="225"
+        x2="222"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="215"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                215
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="229"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                229
+                216.2
             )
         "
     />
@@ -720,11 +1000,11 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="204"
+        x1="240"
         y1="225"
-        x2="204"
-        y2="200"
-        stroke="#86efac"
+        x2="240"
+        y2="183"
+        stroke="#4ade80"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -734,16 +1014,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="197"
-        cy="212.0"
+        cx="233"
+        cy="203.2"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 -25
-                197
-                212.0
+                233
+                203.2
             )
         "
     />
@@ -753,16 +1033,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="211"
-        cy="216.2"
+        cx="247"
+        cy="210.3"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 25
-                211
-                216.2
+                247
+                210.3
             )
         "
     />
@@ -776,118 +1056,6 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="204"
-        y1="225"
-        x2="204"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="197"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                197
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="211"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                211
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.40s">
-
-    <!-- STEM -->
-
-    <line
-        x1="204"
-        y1="225"
-        x2="204"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="197"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                197
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="211"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                211
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.32s">
-
-    <!-- STEM -->
-
-    <line
         x1="240"
         y1="225"
         x2="240"
@@ -947,8 +1115,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="240"
         y1="225"
         x2="240"
-        y2="200"
-        stroke="#86efac"
+        y2="183"
+        stroke="#4ade80"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -959,15 +1127,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="233"
-        cy="212.0"
+        cy="203.2"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 -25
                 233
-                212.0
+                203.2
             )
         "
     />
@@ -978,15 +1146,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="247"
-        cy="216.2"
+        cy="210.3"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 25
                 247
-                216.2
+                210.3
             )
         "
     />
@@ -995,14 +1163,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.34s">
+    style="animation-delay:0.44s">
 
     <!-- STEM -->
 
     <line
-        x1="258"
+        x1="240"
         y1="225"
-        x2="258"
+        x2="240"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -1014,7 +1182,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="251"
+        cx="233"
         cy="203.2"
         rx="9"
         ry="4.5"
@@ -1022,7 +1190,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                251
+                233
                 203.2
             )
         "
@@ -1033,7 +1201,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="265"
+        cx="247"
         cy="210.3"
         rx="9"
         ry="4.5"
@@ -1041,7 +1209,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                265
+                247
                 210.3
             )
         "
@@ -1051,14 +1219,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.38s">
+    style="animation-delay:0.31s">
 
     <!-- STEM -->
 
     <line
-        x1="258"
+        x1="276"
         y1="225"
-        x2="258"
+        x2="276"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -1070,7 +1238,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="251"
+        cx="269"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -1078,7 +1246,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                251
+                269
                 212.0
             )
         "
@@ -1089,7 +1257,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="265"
+        cx="283"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -1097,7 +1265,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                265
+                283
                 216.2
             )
         "
@@ -1107,126 +1275,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.42s">
+    style="animation-delay:0.43s">
 
     <!-- STEM -->
 
     <line
-        x1="258"
+        x1="276"
         y1="225"
-        x2="258"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="251"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                251
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="265"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                265
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.46s">
-
-    <!-- STEM -->
-
-    <line
-        x1="258"
-        y1="225"
-        x2="258"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="251"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                251
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="265"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                265
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.33s">
-
-    <!-- STEM -->
-
-    <line
-        x1="294"
-        y1="225"
-        x2="294"
+        x2="276"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -1238,7 +1294,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="287"
+        cx="269"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -1246,7 +1302,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                287
+                269
                 212.0
             )
         "
@@ -1257,7 +1313,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="301"
+        cx="283"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -1265,7 +1321,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                301
+                283
                 216.2
             )
         "
@@ -1283,62 +1339,6 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="294"
         y1="225"
         x2="294"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="287"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                287
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="301"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                301
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.47s">
-
-    <!-- STEM -->
-
-    <line
-        x1="312"
-        y1="225"
-        x2="312"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -1350,7 +1350,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="305"
+        cx="287"
         cy="203.2"
         rx="9"
         ry="4.5"
@@ -1358,7 +1358,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                305
+                287
                 203.2
             )
         "
@@ -1369,7 +1369,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="319"
+        cx="301"
         cy="210.3"
         rx="9"
         ry="4.5"
@@ -1377,7 +1377,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                319
+                301
                 210.3
             )
         "
@@ -1387,14 +1387,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.51s">
+    style="animation-delay:0.49s">
 
     <!-- STEM -->
 
     <line
-        x1="312"
+        x1="294"
         y1="225"
-        x2="312"
+        x2="294"
         y2="165"
         stroke="#22c55e"
         stroke-width="3"
@@ -1406,7 +1406,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="305"
+        cx="287"
         cy="193.8"
         rx="9"
         ry="4.5"
@@ -1414,7 +1414,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                305
+                287
                 193.8
             )
         "
@@ -1425,7 +1425,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="319"
+        cx="301"
         cy="204.0"
         rx="9"
         ry="4.5"
@@ -1433,7 +1433,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                319
+                301
                 204.0
             )
         "
@@ -1442,44 +1442,212 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <g
         class="flower"
-        style="animation-delay:1.11s">
+        style="animation-delay:1.09s">
 
         <circle
-            cx="307"
+            cx="289"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="317"
+            cx="299"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="312"
+            cx="294"
             cy="155"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="312"
+            cx="294"
             cy="165"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="312"
+            cx="294"
             cy="160"
             r="3"
             fill="#fbbf24"
         />
 
     </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.48s">
+
+    <!-- STEM -->
+
+    <line
+        x1="366"
+        y1="225"
+        x2="366"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="359"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                359
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="373"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                373
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.34s">
+
+    <!-- STEM -->
+
+    <line
+        x1="384"
+        y1="225"
+        x2="384"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="377"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                377
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="391"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                391
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.42s">
+
+    <!-- STEM -->
+
+    <line
+        x1="384"
+        y1="225"
+        x2="384"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="377"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                377
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="391"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                391
+                216.2
+            )
+        "
+    />
 </g>
 
 
@@ -1493,8 +1661,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="384"
         y1="225"
         x2="384"
-        y2="183"
-        stroke="#4ade80"
+        y2="200"
+        stroke="#86efac"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -1505,15 +1673,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="377"
-        cy="203.2"
+        cy="212.0"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#86efac"
         transform="
             rotate(
                 -25
                 377
-                203.2
+                212.0
             )
         "
     />
@@ -1524,62 +1692,6 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="391"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                391
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.36s">
-
-    <!-- STEM -->
-
-    <line
-        x1="402"
-        y1="225"
-        x2="402"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="395"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                395
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="409"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -1587,7 +1699,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                409
+                391
                 216.2
             )
         "
@@ -1597,14 +1709,112 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.44s">
+    style="animation-delay:0.62s">
 
     <!-- STEM -->
 
     <line
-        x1="402"
+        x1="420"
         y1="225"
-        x2="402"
+        x2="420"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="413"
+        cy="193.8"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                -25
+                413
+                193.8
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="427"
+        cy="204.0"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                25
+                427
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.22s">
+
+        <circle
+            cx="415"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="425"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="420"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="420"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="420"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.40s">
+
+    <!-- STEM -->
+
+    <line
+        x1="438"
+        y1="225"
+        x2="438"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -1616,7 +1826,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="395"
+        cx="431"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -1624,7 +1834,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                395
+                431
                 212.0
             )
         "
@@ -1635,7 +1845,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="409"
+        cx="445"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -1643,7 +1853,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                409
+                445
                 216.2
             )
         "
@@ -1658,67 +1868,11 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="402"
-        y1="225"
-        x2="402"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="395"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                395
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="409"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                409
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.64s">
-
-    <!-- STEM -->
-
-    <line
         x1="438"
         y1="225"
         x2="438"
-        y2="165"
-        stroke="#22c55e"
+        y2="183"
+        stroke="#4ade80"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -1729,15 +1883,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="431"
-        cy="193.8"
+        cy="203.2"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#4ade80"
         transform="
             rotate(
                 -25
                 431
-                193.8
+                203.2
             )
         "
     />
@@ -1748,113 +1902,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="445"
-        cy="204.0"
+        cy="210.3"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#4ade80"
         transform="
             rotate(
                 25
                 445
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.24s">
-
-        <circle
-            cx="433"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="443"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="438"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="438"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="438"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.41s">
-
-    <!-- STEM -->
-
-    <line
-        x1="456"
-        y1="225"
-        x2="456"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="449"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                449
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="463"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                463
-                216.2
+                210.3
             )
         "
     />
@@ -1863,7 +1919,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.53s">
+    style="animation-delay:0.57s">
 
     <!-- STEM -->
 
@@ -1919,7 +1975,105 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.59s">
+    style="animation-delay:0.47s">
+
+    <!-- STEM -->
+
+    <line
+        x1="474"
+        y1="225"
+        x2="474"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="467"
+        cy="193.8"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                -25
+                467
+                193.8
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="481"
+        cy="204.0"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                25
+                481
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.07s">
+
+        <circle
+            cx="469"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="479"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="474"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="474"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="474"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.55s">
 
     <!-- STEM -->
 
@@ -1983,104 +2137,6 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="492"
         y1="225"
         x2="492"
-        y2="165"
-        stroke="#22c55e"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="485"
-        cy="193.8"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                -25
-                485
-                193.8
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="499"
-        cy="204.0"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                25
-                499
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.09s">
-
-        <circle
-            cx="487"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="497"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="492"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="492"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="492"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.57s">
-
-    <!-- STEM -->
-
-    <line
-        x1="492"
-        y1="225"
-        x2="492"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -2129,7 +2185,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.51s">
+    style="animation-delay:0.47s">
 
     <!-- STEM -->
 
@@ -2137,62 +2193,6 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="510"
         y1="225"
         x2="510"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="503"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                503
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="517"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                517
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.49s">
-
-    <!-- STEM -->
-
-    <line
-        x1="528"
-        y1="225"
-        x2="528"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -2204,7 +2204,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="521"
+        cx="503"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -2212,7 +2212,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                521
+                503
                 212.0
             )
         "
@@ -2223,7 +2223,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="535"
+        cx="517"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -2231,64 +2231,8 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                535
+                517
                 216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.72s">
-
-    <!-- STEM -->
-
-    <line
-        x1="564"
-        y1="225"
-        x2="564"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="557"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                557
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="571"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                571
-                210.3
             )
         "
     />
@@ -2302,121 +2246,9 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="618"
+        x1="546"
         y1="225"
-        x2="618"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="611"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                611
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="625"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                625
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.61s">
-
-    <!-- STEM -->
-
-    <line
-        x1="654"
-        y1="225"
-        x2="654"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="647"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                647
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="661"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                661
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.69s">
-
-    <!-- STEM -->
-
-    <line
-        x1="654"
-        y1="225"
-        x2="654"
+        x2="546"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -2428,7 +2260,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="647"
+        cx="539"
         cy="203.2"
         rx="9"
         ry="4.5"
@@ -2436,7 +2268,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                647
+                539
                 203.2
             )
         "
@@ -2447,7 +2279,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="661"
+        cx="553"
         cy="210.3"
         rx="9"
         ry="4.5"
@@ -2455,7 +2287,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                661
+                553
                 210.3
             )
         "
@@ -2465,14 +2297,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.77s">
+    style="animation-delay:0.68s">
 
     <!-- STEM -->
 
     <line
-        x1="654"
+        x1="600"
         y1="225"
-        x2="654"
+        x2="600"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -2484,7 +2316,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="647"
+        cx="593"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -2492,7 +2324,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                647
+                593
                 212.0
             )
         "
@@ -2503,7 +2335,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="661"
+        cx="607"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -2511,7 +2343,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                661
+                607
                 216.2
             )
         "
@@ -2521,14 +2353,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.81s">
+    style="animation-delay:0.59s">
 
     <!-- STEM -->
 
     <line
-        x1="690"
+        x1="636"
         y1="225"
-        x2="690"
+        x2="636"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -2540,7 +2372,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="683"
+        cx="629"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -2548,7 +2380,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                683
+                629
                 212.0
             )
         "
@@ -2559,7 +2391,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="697"
+        cx="643"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -2567,7 +2399,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                697
+                643
                 216.2
             )
         "
@@ -2577,14 +2409,182 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.78s">
+    style="animation-delay:0.67s">
 
     <!-- STEM -->
 
     <line
-        x1="744"
+        x1="636"
         y1="225"
-        x2="744"
+        x2="636"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="629"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                629
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="643"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                643
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.75s">
+
+    <!-- STEM -->
+
+    <line
+        x1="636"
+        y1="225"
+        x2="636"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="629"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                629
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="643"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                643
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.79s">
+
+    <!-- STEM -->
+
+    <line
+        x1="672"
+        y1="225"
+        x2="672"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="665"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                665
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="679"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                679
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.76s">
+
+    <!-- STEM -->
+
+    <line
+        x1="726"
+        y1="225"
+        x2="726"
         y2="165"
         stroke="#22c55e"
         stroke-width="3"
@@ -2596,7 +2596,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="737"
+        cx="719"
         cy="193.8"
         rx="9"
         ry="4.5"
@@ -2604,7 +2604,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                737
+                719
                 193.8
             )
         "
@@ -2615,7 +2615,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="751"
+        cx="733"
         cy="204.0"
         rx="9"
         ry="4.5"
@@ -2623,7 +2623,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                751
+                733
                 204.0
             )
         "
@@ -2632,38 +2632,248 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <g
         class="flower"
-        style="animation-delay:1.38s">
+        style="animation-delay:1.36s">
 
         <circle
-            cx="739"
+            cx="721"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="749"
+            cx="731"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="744"
+            cx="726"
             cy="155"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="744"
+            cx="726"
             cy="165"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="744"
+            cx="726"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.90s">
+
+    <!-- STEM -->
+
+    <line
+        x1="744"
+        y1="225"
+        x2="744"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="737"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                737
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="751"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                751
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.94s">
+
+    <!-- STEM -->
+
+    <line
+        x1="744"
+        y1="225"
+        x2="744"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="737"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                737
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="751"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                751
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.88s">
+
+    <!-- STEM -->
+
+    <line
+        x1="798"
+        y1="225"
+        x2="798"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="791"
+        cy="193.8"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                -25
+                791
+                193.8
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="805"
+        cy="204.0"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                25
+                805
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.48s">
+
+        <circle
+            cx="793"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="803"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
             cy="160"
             r="3"
             fill="#fbbf24"
@@ -2680,11 +2890,11 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="762"
+        x1="798"
         y1="225"
-        x2="762"
-        y2="200"
-        stroke="#86efac"
+        x2="798"
+        y2="165"
+        stroke="#22c55e"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -2694,16 +2904,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="755"
-        cy="212.0"
+        cx="791"
+        cy="193.8"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#22c55e"
         transform="
             rotate(
                 -25
-                755
-                212.0
+                791
+                193.8
             )
         "
     />
@@ -2713,19 +2923,61 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="769"
-        cy="216.2"
+        cx="805"
+        cy="204.0"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#22c55e"
         transform="
             rotate(
                 25
-                769
-                216.2
+                805
+                204.0
             )
         "
     />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.52s">
+
+        <circle
+            cx="793"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="803"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
 </g>
 
 
@@ -2736,11 +2988,11 @@ aria-label="Shreyam's GitHub Code Garden">
     <!-- STEM -->
 
     <line
-        x1="762"
+        x1="798"
         y1="225"
-        x2="762"
-        y2="200"
-        stroke="#86efac"
+        x2="798"
+        y2="165"
+        stroke="#22c55e"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -2750,16 +3002,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="755"
-        cy="212.0"
+        cx="791"
+        cy="193.8"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#22c55e"
         transform="
             rotate(
                 -25
-                755
-                212.0
+                791
+                193.8
             )
         "
     />
@@ -2769,16 +3021,114 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="769"
-        cy="216.2"
+        cx="805"
+        cy="204.0"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#22c55e"
         transform="
             rotate(
                 25
-                769
-                216.2
+                805
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.56s">
+
+        <circle
+            cx="793"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="803"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="798"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.85s">
+
+    <!-- STEM -->
+
+    <line
+        x1="816"
+        y1="225"
+        x2="816"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="809"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                809
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="823"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                823
+                210.3
             )
         "
     />
@@ -2795,8 +3145,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="816"
         y1="225"
         x2="816"
-        y2="165"
-        stroke="#22c55e"
+        y2="200"
+        stroke="#86efac"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -2807,15 +3157,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="809"
-        cy="193.8"
+        cy="212.0"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#86efac"
         transform="
             rotate(
                 -25
                 809
-                193.8
+                212.0
             )
         "
     />
@@ -2826,75 +3176,33 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="823"
-        cy="204.0"
+        cy="216.2"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#86efac"
         transform="
             rotate(
                 25
                 823
-                204.0
+                216.2
             )
         "
     />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.49s">
-
-        <circle
-            cx="811"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="821"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
 </g>
 
 
 <g
     class="plant"
-    style="animation-delay:0.93s">
+    style="animation-delay:0.79s">
 
     <!-- STEM -->
 
     <line
-        x1="816"
+        x1="834"
         y1="225"
-        x2="816"
-        y2="165"
-        stroke="#22c55e"
+        x2="834"
+        y2="200"
+        stroke="#86efac"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -2904,16 +3212,16 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="809"
-        cy="193.8"
+        cx="827"
+        cy="212.0"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#86efac"
         transform="
             rotate(
                 -25
-                809
-                193.8
+                827
+                212.0
             )
         "
     />
@@ -2923,159 +3231,19 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="823"
-        cy="204.0"
+        cx="841"
+        cy="216.2"
         rx="9"
         ry="4.5"
-        fill="#22c55e"
+        fill="#86efac"
         transform="
             rotate(
                 25
-                823
-                204.0
+                841
+                216.2
             )
         "
     />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.53s">
-
-        <circle
-            cx="811"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="821"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.97s">
-
-    <!-- STEM -->
-
-    <line
-        x1="816"
-        y1="225"
-        x2="816"
-        y2="165"
-        stroke="#22c55e"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="809"
-        cy="193.8"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                -25
-                809
-                193.8
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="823"
-        cy="204.0"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                25
-                823
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.57s">
-
-        <circle
-            cx="811"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="821"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="816"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
 </g>
 
 
@@ -3089,8 +3257,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="834"
         y1="225"
         x2="834"
-        y2="183"
-        stroke="#4ade80"
+        y2="165"
+        stroke="#22c55e"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -3101,15 +3269,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="827"
-        cy="203.2"
+        cy="193.8"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#22c55e"
         transform="
             rotate(
                 -25
                 827
-                203.2
+                193.8
             )
         "
     />
@@ -3120,18 +3288,60 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="841"
-        cy="210.3"
+        cy="204.0"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#22c55e"
         transform="
             rotate(
                 25
                 841
-                210.3
+                204.0
             )
         "
     />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.47s">
+
+        <circle
+            cx="829"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="839"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="834"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="834"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="834"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
 </g>
 
 
@@ -3193,217 +3403,63 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
+    style="animation-delay:0.99s">
+
+    <!-- STEM -->
+
+    <line
+        x1="834"
+        y1="225"
+        x2="834"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="827"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                827
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="841"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                841
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
     style="animation-delay:0.81s">
-
-    <!-- STEM -->
-
-    <line
-        x1="852"
-        y1="225"
-        x2="852"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="845"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                845
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="859"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                859
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.89s">
-
-    <!-- STEM -->
-
-    <line
-        x1="852"
-        y1="225"
-        x2="852"
-        y2="165"
-        stroke="#22c55e"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="845"
-        cy="193.8"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                -25
-                845
-                193.8
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="859"
-        cy="204.0"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                25
-                859
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.49s">
-
-        <circle
-            cx="847"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="857"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="852"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="852"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="852"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.93s">
-
-    <!-- STEM -->
-
-    <line
-        x1="852"
-        y1="225"
-        x2="852"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="845"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                845
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="859"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                859
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.01s">
 
     <!-- STEM -->
 
@@ -3459,7 +3515,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.83s">
+    style="animation-delay:0.91s">
 
     <!-- STEM -->
 
@@ -3515,70 +3571,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.93s">
+    style="animation-delay:0.95s">
 
     <!-- STEM -->
 
     <line
-        x1="888"
+        x1="870"
         y1="225"
-        x2="888"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="881"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                881
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="895"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                895
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.97s">
-
-    <!-- STEM -->
-
-    <line
-        x1="888"
-        y1="225"
-        x2="888"
+        x2="870"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -3590,7 +3590,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="881"
+        cx="863"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -3598,7 +3598,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                881
+                863
                 212.0
             )
         "
@@ -3609,7 +3609,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="895"
+        cx="877"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -3617,7 +3617,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                895
+                877
                 216.2
             )
         "
@@ -3627,14 +3627,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:1.05s">
+    style="animation-delay:1.03s">
 
     <!-- STEM -->
 
     <line
-        x1="888"
+        x1="870"
         y1="225"
-        x2="888"
+        x2="870"
         y2="165"
         stroke="#22c55e"
         stroke-width="3"
@@ -3646,7 +3646,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="881"
+        cx="863"
         cy="193.8"
         rx="9"
         ry="4.5"
@@ -3654,7 +3654,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                881
+                863
                 193.8
             )
         "
@@ -3665,7 +3665,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="895"
+        cx="877"
         cy="204.0"
         rx="9"
         ry="4.5"
@@ -3673,7 +3673,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                895
+                877
                 204.0
             )
         "
@@ -3682,38 +3682,38 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <g
         class="flower"
-        style="animation-delay:1.65s">
+        style="animation-delay:1.63s">
 
         <circle
-            cx="883"
+            cx="865"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="893"
+            cx="875"
             cy="160"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="888"
+            cx="870"
             cy="155"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="888"
+            cx="870"
             cy="165"
             r="4"
             fill="#60a5fa"
         />
 
         <circle
-            cx="888"
+            cx="870"
             cy="160"
             r="3"
             fill="#fbbf24"
@@ -3725,7 +3725,63 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:1.09s">
+    style="animation-delay:1.07s">
+
+    <!-- STEM -->
+
+    <line
+        x1="870"
+        y1="225"
+        x2="870"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="863"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                863
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="877"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                877
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.85s">
 
     <!-- STEM -->
 
@@ -3733,8 +3789,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="888"
         y1="225"
         x2="888"
-        y2="183"
-        stroke="#4ade80"
+        y2="200"
+        stroke="#86efac"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -3745,15 +3801,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="881"
-        cy="203.2"
+        cy="212.0"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#86efac"
         transform="
             rotate(
                 -25
                 881
-                203.2
+                212.0
             )
         "
     />
@@ -3764,15 +3820,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="895"
-        cy="210.3"
+        cy="216.2"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#86efac"
         transform="
             rotate(
                 25
                 895
-                210.3
+                216.2
             )
         "
     />
@@ -3781,14 +3837,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.86s">
+    style="animation-delay:0.89s">
 
     <!-- STEM -->
 
     <line
-        x1="906"
+        x1="888"
         y1="225"
-        x2="906"
+        x2="888"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -3800,7 +3856,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="899"
+        cx="881"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -3808,7 +3864,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                899
+                881
                 212.0
             )
         "
@@ -3819,7 +3875,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="913"
+        cx="895"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -3827,7 +3883,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                913
+                895
                 216.2
             )
         "
@@ -3837,70 +3893,14 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <g
     class="plant"
-    style="animation-delay:0.90s">
+    style="animation-delay:0.96s">
 
     <!-- STEM -->
 
     <line
-        x1="906"
+        x1="924"
         y1="225"
-        x2="906"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="899"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                899
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="913"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                913
-                216.2
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.98s">
-
-    <!-- STEM -->
-
-    <line
-        x1="942"
-        y1="225"
-        x2="942"
+        x2="924"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -3912,7 +3912,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="935"
+        cx="917"
         cy="203.2"
         rx="9"
         ry="4.5"
@@ -3920,7 +3920,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                935
+                917
                 203.2
             )
         "
@@ -3931,7 +3931,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="949"
+        cx="931"
         cy="210.3"
         rx="9"
         ry="4.5"
@@ -3939,8 +3939,232 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                949
+                931
                 210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.00s">
+
+    <!-- STEM -->
+
+    <line
+        x1="924"
+        y1="225"
+        x2="924"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="917"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                917
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="931"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                931
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.04s">
+
+    <!-- STEM -->
+
+    <line
+        x1="924"
+        y1="225"
+        x2="924"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="917"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                917
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="931"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                931
+                216.2
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.12s">
+
+    <!-- STEM -->
+
+    <line
+        x1="924"
+        y1="225"
+        x2="924"
+        y2="183"
+        stroke="#4ade80"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="917"
+        cy="203.2"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                -25
+                917
+                203.2
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="931"
+        cy="210.3"
+        rx="9"
+        ry="4.5"
+        fill="#4ade80"
+        transform="
+            rotate(
+                25
+                931
+                210.3
+            )
+        "
+    />
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:0.94s">
+
+    <!-- STEM -->
+
+    <line
+        x1="942"
+        y1="225"
+        x2="942"
+        y2="200"
+        stroke="#86efac"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="935"
+        cy="212.0"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                -25
+                935
+                212.0
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="949"
+        cy="216.2"
+        rx="9"
+        ry="4.5"
+        fill="#86efac"
+        transform="
+            rotate(
+                25
+                949
+                216.2
             )
         "
     />
@@ -3957,6 +4181,202 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="942"
         y1="225"
         x2="942"
+        y2="143"
+        stroke="#15803d"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="935"
+        cy="182.4"
+        rx="9"
+        ry="4.5"
+        fill="#15803d"
+        transform="
+            rotate(
+                -25
+                935
+                182.4
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="949"
+        cy="196.3"
+        rx="9"
+        ry="4.5"
+        fill="#15803d"
+        transform="
+            rotate(
+                25
+                949
+                196.3
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.62s">
+
+        <circle
+            cx="937"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="947"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="133"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="143"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="138"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.06s">
+
+    <!-- STEM -->
+
+    <line
+        x1="942"
+        y1="225"
+        x2="942"
+        y2="165"
+        stroke="#22c55e"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="935"
+        cy="193.8"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                -25
+                935
+                193.8
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="949"
+        cy="204.0"
+        rx="9"
+        ry="4.5"
+        fill="#22c55e"
+        transform="
+            rotate(
+                25
+                949
+                204.0
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.66s">
+
+        <circle
+            cx="937"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="947"
+            cy="160"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="942"
+            cy="155"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="942"
+            cy="165"
+            r="4"
+            fill="#60a5fa"
+        />
+
+        <circle
+            cx="942"
+            cy="160"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.10s">
+
+    <!-- STEM -->
+
+    <line
+        x1="942"
+        y1="225"
+        x2="942"
         y2="183"
         stroke="#4ade80"
         stroke-width="3"
@@ -3997,62 +4417,6 @@ aria-label="Shreyam's GitHub Code Garden">
                 25
                 949
                 210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.06s">
-
-    <!-- STEM -->
-
-    <line
-        x1="942"
-        y1="225"
-        x2="942"
-        y2="200"
-        stroke="#86efac"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="935"
-        cy="212.0"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                -25
-                935
-                212.0
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="949"
-        cy="216.2"
-        rx="9"
-        ry="4.5"
-        fill="#86efac"
-        transform="
-            rotate(
-                25
-                949
-                216.2
             )
         "
     />
@@ -4069,8 +4433,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="942"
         y1="225"
         x2="942"
-        y2="183"
-        stroke="#4ade80"
+        y2="143"
+        stroke="#15803d"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -4081,15 +4445,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="935"
-        cy="203.2"
+        cy="182.4"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#15803d"
         transform="
             rotate(
                 -25
                 935
-                203.2
+                182.4
             )
         "
     />
@@ -4100,18 +4464,60 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="949"
-        cy="210.3"
+        cy="196.3"
         rx="9"
         ry="4.5"
-        fill="#4ade80"
+        fill="#15803d"
         transform="
             rotate(
                 25
                 949
-                210.3
+                196.3
             )
         "
     />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.74s">
+
+        <circle
+            cx="937"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="947"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="133"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="143"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="942"
+            cy="138"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
 </g>
 
 
@@ -4125,8 +4531,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="960"
         y1="225"
         x2="960"
-        y2="200"
-        stroke="#86efac"
+        y2="143"
+        stroke="#15803d"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -4137,15 +4543,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="953"
-        cy="212.0"
+        cy="182.4"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#15803d"
         transform="
             rotate(
                 -25
                 953
-                212.0
+                182.4
             )
         "
     />
@@ -4156,18 +4562,158 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="967"
-        cy="216.2"
+        cy="196.3"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#15803d"
         transform="
             rotate(
                 25
                 967
-                216.2
+                196.3
             )
         "
     />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.56s">
+
+        <circle
+            cx="955"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="965"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="133"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="143"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="138"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
+</g>
+
+
+<g
+    class="plant"
+    style="animation-delay:1.00s">
+
+    <!-- STEM -->
+
+    <line
+        x1="960"
+        y1="225"
+        x2="960"
+        y2="143"
+        stroke="#15803d"
+        stroke-width="3"
+        stroke-linecap="round"
+    />
+
+
+    <!-- LEFT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="953"
+        cy="182.4"
+        rx="9"
+        ry="4.5"
+        fill="#15803d"
+        transform="
+            rotate(
+                -25
+                953
+                182.4
+            )
+        "
+    />
+
+
+    <!-- RIGHT LEAF -->
+
+    <ellipse
+        class="leaf"
+        cx="967"
+        cy="196.3"
+        rx="9"
+        ry="4.5"
+        fill="#15803d"
+        transform="
+            rotate(
+                25
+                967
+                196.3
+            )
+        "
+    />
+
+
+    <g
+        class="flower"
+        style="animation-delay:1.60s">
+
+        <circle
+            cx="955"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="965"
+            cy="138"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="133"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="143"
+            r="4"
+            fill="#a78bfa"
+        />
+
+        <circle
+            cx="960"
+            cy="138"
+            r="3"
+            fill="#fbbf24"
+        />
+
+    </g>
 </g>
 
 
@@ -4181,552 +4727,6 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="960"
         y1="225"
         x2="960"
-        y2="143"
-        stroke="#15803d"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="953"
-        cy="182.4"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                -25
-                953
-                182.4
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="967"
-        cy="196.3"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                25
-                967
-                196.3
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.64s">
-
-        <circle
-            cx="955"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="965"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="133"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="143"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="138"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.08s">
-
-    <!-- STEM -->
-
-    <line
-        x1="960"
-        y1="225"
-        x2="960"
-        y2="165"
-        stroke="#22c55e"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="953"
-        cy="193.8"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                -25
-                953
-                193.8
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="967"
-        cy="204.0"
-        rx="9"
-        ry="4.5"
-        fill="#22c55e"
-        transform="
-            rotate(
-                25
-                967
-                204.0
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.68s">
-
-        <circle
-            cx="955"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="965"
-            cy="160"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="960"
-            cy="155"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="960"
-            cy="165"
-            r="4"
-            fill="#60a5fa"
-        />
-
-        <circle
-            cx="960"
-            cy="160"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.12s">
-
-    <!-- STEM -->
-
-    <line
-        x1="960"
-        y1="225"
-        x2="960"
-        y2="183"
-        stroke="#4ade80"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="953"
-        cy="203.2"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                -25
-                953
-                203.2
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="967"
-        cy="210.3"
-        rx="9"
-        ry="4.5"
-        fill="#4ade80"
-        transform="
-            rotate(
-                25
-                967
-                210.3
-            )
-        "
-    />
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.16s">
-
-    <!-- STEM -->
-
-    <line
-        x1="960"
-        y1="225"
-        x2="960"
-        y2="143"
-        stroke="#15803d"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="953"
-        cy="182.4"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                -25
-                953
-                182.4
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="967"
-        cy="196.3"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                25
-                967
-                196.3
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.76s">
-
-        <circle
-            cx="955"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="965"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="133"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="143"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="960"
-            cy="138"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:0.98s">
-
-    <!-- STEM -->
-
-    <line
-        x1="978"
-        y1="225"
-        x2="978"
-        y2="143"
-        stroke="#15803d"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="971"
-        cy="182.4"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                -25
-                971
-                182.4
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="985"
-        cy="196.3"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                25
-                985
-                196.3
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.58s">
-
-        <circle
-            cx="973"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="983"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="133"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="143"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="138"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.02s">
-
-    <!-- STEM -->
-
-    <line
-        x1="978"
-        y1="225"
-        x2="978"
-        y2="143"
-        stroke="#15803d"
-        stroke-width="3"
-        stroke-linecap="round"
-    />
-
-
-    <!-- LEFT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="971"
-        cy="182.4"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                -25
-                971
-                182.4
-            )
-        "
-    />
-
-
-    <!-- RIGHT LEAF -->
-
-    <ellipse
-        class="leaf"
-        cx="985"
-        cy="196.3"
-        rx="9"
-        ry="4.5"
-        fill="#15803d"
-        transform="
-            rotate(
-                25
-                985
-                196.3
-            )
-        "
-    />
-
-
-    <g
-        class="flower"
-        style="animation-delay:1.62s">
-
-        <circle
-            cx="973"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="983"
-            cy="138"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="133"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="143"
-            r="4"
-            fill="#a78bfa"
-        />
-
-        <circle
-            cx="978"
-            cy="138"
-            r="3"
-            fill="#fbbf24"
-        />
-
-    </g>
-</g>
-
-
-<g
-    class="plant"
-    style="animation-delay:1.06s">
-
-    <!-- STEM -->
-
-    <line
-        x1="978"
-        y1="225"
-        x2="978"
         y2="200"
         stroke="#86efac"
         stroke-width="3"
@@ -4738,7 +4738,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="971"
+        cx="953"
         cy="212.0"
         rx="9"
         ry="4.5"
@@ -4746,7 +4746,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 -25
-                971
+                953
                 212.0
             )
         "
@@ -4757,7 +4757,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
     <ellipse
         class="leaf"
-        cx="985"
+        cx="967"
         cy="216.2"
         rx="9"
         ry="4.5"
@@ -4765,7 +4765,7 @@ aria-label="Shreyam's GitHub Code Garden">
         transform="
             rotate(
                 25
-                985
+                967
                 216.2
             )
         "
@@ -4976,7 +4976,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -4986,7 +4986,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5046,7 +5046,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -5056,7 +5056,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -5126,7 +5126,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5196,7 +5196,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -5316,7 +5316,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5336,7 +5336,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5346,7 +5346,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#22c55e"
 />
 
 
@@ -5366,7 +5366,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -5376,7 +5376,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5386,7 +5386,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#4ade80"
 />
 
 
@@ -5396,7 +5396,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -5412,6 +5412,426 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="186"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="204"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="204"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="222"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="222"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="222"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="222"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="222"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="222"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="222"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="240"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="240"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="240"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="240"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="240"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="240"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="240"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="258"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="258"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="276"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="276"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="276"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="276"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="276"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="276"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="276"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="294"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="294"
     y="335"
     width="14"
     height="14"
@@ -5421,426 +5841,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="204"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="204"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="204"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="204"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="204"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="204"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="204"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="222"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="222"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="240"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="240"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="240"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="240"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="240"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="240"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="240"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="258"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="258"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="258"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="258"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="258"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="258"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="258"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="276"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="276"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="294"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="294"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="294"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="294"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="294"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="294"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="294"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
     x="312"
     y="227"
     width="14"
@@ -5896,7 +5896,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -5906,7 +5906,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#22c55e"
+    fill="#eef2f7"
 />
 
 
@@ -6096,7 +6096,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -6126,7 +6126,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -6146,7 +6146,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -6166,7 +6166,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#bbf7d0"
 />
 
 
@@ -6196,33 +6196,13 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="402"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
     fill="#eef2f7"
 />
 
 
 <rect
     x="402"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="402"
-    y="281"
+    y="245"
     width="14"
     height="14"
     rx="3"
@@ -6232,11 +6212,31 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="402"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="402"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="402"
     y="299"
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -6326,82 +6326,12 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="438"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
     fill="#22c55e"
 />
 
 
 <rect
-    x="456"
+    x="438"
     y="227"
     width="14"
     height="14"
@@ -6411,6 +6341,76 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="438"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="438"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="438"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="438"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="438"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="438"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="456"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
     x="456"
     y="245"
     width="14"
@@ -6436,7 +6436,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -6446,7 +6446,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -6482,76 +6482,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="474"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="474"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="474"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="474"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="474"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="474"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="492"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="492"
     y="245"
     width="14"
     height="14"
@@ -6561,6 +6491,76 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="474"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="474"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="474"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="474"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="474"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="492"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="492"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
     x="492"
     y="263"
     width="14"
@@ -6576,7 +6576,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -6616,7 +6616,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -6626,7 +6626,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -6686,7 +6686,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -6806,7 +6806,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -6876,7 +6876,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -6996,7 +6996,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -7066,23 +7066,13 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="618"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
     fill="#eef2f7"
 />
 
 
 <rect
     x="618"
-    y="317"
+    y="299"
     width="14"
     height="14"
     rx="3"
@@ -7092,66 +7082,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="618"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="636"
     y="317"
     width="14"
     height="14"
@@ -7161,7 +7091,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="636"
+    x="618"
     y="335"
     width="14"
     height="14"
@@ -7171,7 +7101,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="227"
     width="14"
     height="14"
@@ -7181,7 +7111,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="245"
     width="14"
     height="14"
@@ -7191,7 +7121,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="263"
     width="14"
     height="14"
@@ -7201,7 +7131,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="281"
     width="14"
     height="14"
@@ -7211,7 +7141,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="299"
     width="14"
     height="14"
@@ -7221,7 +7151,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="317"
     width="14"
     height="14"
@@ -7231,7 +7161,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="654"
+    x="636"
     y="335"
     width="14"
     height="14"
@@ -7241,7 +7171,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="227"
     width="14"
     height="14"
@@ -7251,7 +7181,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="245"
     width="14"
     height="14"
@@ -7261,7 +7191,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="263"
     width="14"
     height="14"
@@ -7271,7 +7201,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="281"
     width="14"
     height="14"
@@ -7281,7 +7211,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="299"
     width="14"
     height="14"
@@ -7291,7 +7221,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="317"
     width="14"
     height="14"
@@ -7301,7 +7231,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="672"
+    x="654"
     y="335"
     width="14"
     height="14"
@@ -7311,7 +7241,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="690"
+    x="672"
     y="227"
     width="14"
     height="14"
@@ -7321,7 +7251,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="690"
+    x="672"
     y="245"
     width="14"
     height="14"
@@ -7331,7 +7261,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="690"
+    x="672"
     y="263"
     width="14"
     height="14"
@@ -7341,7 +7271,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="690"
+    x="672"
     y="281"
     width="14"
     height="14"
@@ -7351,7 +7281,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="690"
+    x="672"
     y="299"
     width="14"
     height="14"
@@ -7361,6 +7291,76 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="672"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="672"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="690"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="690"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="690"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="690"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="690"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
     x="690"
     y="317"
     width="14"
@@ -7472,76 +7472,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="726"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="726"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="726"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="726"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="726"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="744"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="744"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="744"
     y="263"
     width="14"
     height="14"
@@ -7551,6 +7481,76 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="726"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="726"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="726"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="726"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="744"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="744"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="744"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
     x="744"
     y="281"
     width="14"
@@ -7576,7 +7576,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -7586,77 +7586,77 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="762"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
     fill="#bbf7d0"
 />
 
 
 <rect
     x="762"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="762"
     y="335"
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -7762,76 +7762,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="798"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="798"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="798"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="798"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="816"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="816"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="816"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="816"
     y="281"
     width="14"
     height="14"
@@ -7841,12 +7771,82 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="798"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#22c55e"
+/>
+
+
+<rect
+    x="798"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#22c55e"
+/>
+
+
+<rect
+    x="798"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="816"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="816"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="816"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="816"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
     x="816"
     y="299"
     width="14"
     height="14"
     rx="3"
-    fill="#22c55e"
+    fill="#eef2f7"
 />
 
 
@@ -7856,7 +7856,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#22c55e"
+    fill="#eef2f7"
 />
 
 
@@ -7876,7 +7876,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -7892,76 +7892,6 @@ aria-label="Shreyam's GitHub Code Garden">
 
 <rect
     x="834"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="834"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="834"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="834"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="834"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="852"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="852"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="852"
     y="263"
     width="14"
     height="14"
@@ -7971,12 +7901,82 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="852"
+    x="834"
     y="281"
     width="14"
     height="14"
     rx="3"
     fill="#bbf7d0"
+/>
+
+
+<rect
+    x="834"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="834"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="834"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="852"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="852"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="852"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="852"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
 />
 
 
@@ -7996,7 +7996,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -8016,7 +8016,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -8036,82 +8036,12 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="870"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="870"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="870"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="870"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="888"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="888"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="888"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
     fill="#4ade80"
 />
 
 
 <rect
-    x="888"
+    x="870"
     y="281"
     width="14"
     height="14"
@@ -8121,7 +8051,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="888"
+    x="870"
     y="299"
     width="14"
     height="14"
@@ -8131,7 +8061,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="888"
+    x="870"
     y="317"
     width="14"
     height="14"
@@ -8141,12 +8071,82 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
+    x="870"
+    y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="888"
+    y="227"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="888"
+    y="245"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#bbf7d0"
+/>
+
+
+<rect
+    x="888"
+    y="263"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="888"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="888"
+    y="299"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="888"
+    y="317"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
     x="888"
     y="335"
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
+    fill="#eef2f7"
 />
 
 
@@ -8156,7 +8156,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -8166,7 +8166,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#eef2f7"
 />
 
 
@@ -8246,7 +8246,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -8256,7 +8256,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -8266,7 +8266,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -8286,7 +8286,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#4ade80"
 />
 
 
@@ -8306,7 +8306,7 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#eef2f7"
+    fill="#bbf7d0"
 />
 
 
@@ -8316,82 +8316,12 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="942"
-    y="281"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="942"
-    y="299"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="942"
-    y="317"
-    width="14"
-    height="14"
-    rx="3"
     fill="#eef2f7"
 />
 
 
 <rect
     x="942"
-    y="335"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#4ade80"
-/>
-
-
-<rect
-    x="960"
-    y="227"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="960"
-    y="245"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#bbf7d0"
-/>
-
-
-<rect
-    x="960"
-    y="263"
-    width="14"
-    height="14"
-    rx="3"
-    fill="#eef2f7"
-/>
-
-
-<rect
-    x="960"
     y="281"
     width="14"
     height="14"
@@ -8401,7 +8331,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="960"
+    x="942"
     y="299"
     width="14"
     height="14"
@@ -8411,7 +8341,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="960"
+    x="942"
     y="317"
     width="14"
     height="14"
@@ -8421,7 +8351,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="960"
+    x="942"
     y="335"
     width="14"
     height="14"
@@ -8431,7 +8361,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="227"
     width="14"
     height="14"
@@ -8441,7 +8371,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="245"
     width="14"
     height="14"
@@ -8451,7 +8381,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="263"
     width="14"
     height="14"
@@ -8461,7 +8391,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="281"
     width="14"
     height="14"
@@ -8471,7 +8401,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="299"
     width="14"
     height="14"
@@ -8481,7 +8411,7 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="317"
     width="14"
     height="14"
@@ -8491,8 +8421,18 @@ aria-label="Shreyam's GitHub Code Garden">
 
 
 <rect
-    x="978"
+    x="960"
     y="335"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
+/>
+
+
+<rect
+    x="978"
+    y="227"
     width="14"
     height="14"
     rx="3"
