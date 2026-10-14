@@ -5119,8 +5119,8 @@ aria-label="Shreyam's GitHub Code Garden">
         x1="978"
         y1="225"
         x2="978"
-        y2="200"
-        stroke="#86efac"
+        y2="183"
+        stroke="#4ade80"
         stroke-width="3"
         stroke-linecap="round"
     />
@@ -5131,15 +5131,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="971"
-        cy="212.0"
+        cy="203.2"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 -25
                 971
-                212.0
+                203.2
             )
         "
     />
@@ -5150,15 +5150,15 @@ aria-label="Shreyam's GitHub Code Garden">
     <ellipse
         class="leaf"
         cx="985"
-        cy="216.2"
+        cy="210.3"
         rx="9"
         ry="4.5"
-        fill="#86efac"
+        fill="#4ade80"
         transform="
             rotate(
                 25
                 985
-                216.2
+                210.3
             )
         "
     />
@@ -8848,7 +8848,17 @@ aria-label="Shreyam's GitHub Code Garden">
     width="14"
     height="14"
     rx="3"
-    fill="#bbf7d0"
+    fill="#4ade80"
+/>
+
+
+<rect
+    x="978"
+    y="281"
+    width="14"
+    height="14"
+    rx="3"
+    fill="#eef2f7"
 />
 
 
@@ -8936,7 +8946,7 @@ aria-label="Shreyam's GitHub Code Garden">
     font-size="10"
     fill="#64748b">
 
-    353 contributions
+    359 contributions
 
 </text>
 
